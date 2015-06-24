@@ -93,4 +93,34 @@ public class Course {
     public String getName() {
         return this.name;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Course course = (Course) o;
+
+        if (fee != course.fee) return false;
+        if (!age.equals(course.age)) return false;
+        if (!dateRange.equals(course.dateRange)) return false;
+        if (description != null ? !description.equals(course.description) : course.description != null) return false;
+        if (!name.equals(course.name)) return false;
+        if (!room.equals(course.room)) return false;
+        if (!teachers.equals(course.teachers)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name.hashCode();
+        result = 31 * result + dateRange.hashCode();
+        result = 31 * result + (description != null ? description.hashCode() : 0);
+        result = 31 * result + age.hashCode();
+        result = 31 * result + fee;
+        result = 31 * result + room.hashCode();
+        result = 31 * result + teachers.hashCode();
+        return result;
+    }
 }
