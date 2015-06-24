@@ -12,11 +12,6 @@ import static org.junit.Assert.assertEquals;
  * Created by twer on 6/23/15.
  */
 public class CourseShould {
-    // TODO: createACourseInRepository
-    // TODO: readCourseByNameFromRepository
-    // TODO: updateCourseByNameInRepository
-    // TODO: deleteCourseByNameFromRepository
-
     @Test
     public void tellMeTheEndDate() {
         // Arrange
