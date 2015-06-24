@@ -9,4 +9,8 @@ public class CourseRepository {
         Course course = Course.create(courseInScheduling.getName());
         return course;
     }
+
+    private static dddkata.tutoring.scheduling.Course getCourseInSchedulingByName(String courseName) {
+        return dddkata.tutoring.scheduling.CourseRepository.getByName("美术预科");
+    }
 }
