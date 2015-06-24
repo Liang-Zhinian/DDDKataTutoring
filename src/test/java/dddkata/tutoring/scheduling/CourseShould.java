@@ -29,7 +29,7 @@ public class CourseShould {
 
     @Test
     public void tellMeTheTeachers() {
-        // Assert
+        // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.create("幼幼", "13809878765"));
         teachers.add(Teacher.create("杆子", "18976876567"));
@@ -38,10 +38,18 @@ public class CourseShould {
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
+
+        // Act & Assert
         assertEquals("幼幼: 13809878765 杆子: 18976876567 ", course.getTeachersAndMobiles());
     }
 
-    // TODO: tellMeTheRoom
+    @Test
+    public void tellMeTheRoom() {
+        
+        // Act & Assert
+        assertEquals("达芬奇", course.getRoom());
+    }
+
     // TODO: tellMeTheFee
     // TODO: tellMeTheName
     // TODO: tellMeTheDescription

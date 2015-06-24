@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,12 +70,12 @@
       <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92741936" vertical-offset="296" max-vertical-offset="990">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8548387" vertical-offset="422" max-vertical-offset="1134">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#387#396#0" expanded="true" />
-                <element signature="e#964#973#0" expanded="true" />
+                <element signature="e#965#974#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="1764">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
@@ -125,6 +123,7 @@
                 <element signature="e#1718#1719#0" expanded="true" />
                 <element signature="e#1760#1761#0" expanded="true" />
                 <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#1844#1845#0" expanded="true" />
                 <element signature="e#1886#1887#0" expanded="true" />
               </folding>
             </state>
@@ -190,8 +189,8 @@
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
       </list>
     </option>
   </component>
@@ -809,12 +808,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="13647000" />
+      <workItem from="1435048325449" duration="13929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14444000" />
+    <option name="totallyTimeSpent" value="14726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -822,7 +821,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -843,7 +842,7 @@
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -966,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="1764">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
@@ -991,6 +990,7 @@
             <element signature="e#1718#1719#0" expanded="true" />
             <element signature="e#1760#1761#0" expanded="true" />
             <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
           </folding>
         </state>
@@ -998,12 +998,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92741936" vertical-offset="296" max-vertical-offset="990">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8548387" vertical-offset="422" max-vertical-offset="1134">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#387#396#0" expanded="true" />
-            <element signature="e#964#973#0" expanded="true" />
+            <element signature="e#965#974#0" expanded="true" />
           </folding>
         </state>
       </provider>
