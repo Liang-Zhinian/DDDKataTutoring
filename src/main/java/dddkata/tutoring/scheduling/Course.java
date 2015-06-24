@@ -15,6 +15,7 @@ public class Course {
     private String room;
     private List<Teacher> teachers;
 
+    // TODO: Made it private since we use factory to create a course object.
     public Course(String name) {
 
     }
@@ -81,5 +82,9 @@ public class Course {
 
     public void setDateRange(DateRange dateRange) {
         this.dateRange = dateRange;
+    }
+
+    public String getTeachersAndMobiles() {
+        return null;
     }
 }
