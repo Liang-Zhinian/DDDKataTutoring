@@ -17,7 +17,7 @@ public class CourseShould {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(new Teacher("幼幼", "13809878765"));
-        DateRange dateRange = new DateRange("Wednesday", "18", "19:30", "2015.02.11", 12);
+        DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
         Course course = Course.create("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
