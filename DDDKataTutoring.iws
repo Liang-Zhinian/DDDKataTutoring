@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.ipr" afterPath="$PROJECT_DIR$/DDDKataTutoring.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
@@ -78,12 +77,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3266129" vertical-offset="0" max-vertical-offset="496">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="496">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateRange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/DateRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +137,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/DateRange.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/Course.java" />
       </list>
     </option>
   </component>
@@ -264,8 +295,16 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dddkata.tutoring" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CourseShould.tellMeTheEndDate">
     <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="DDDKataTutoring" />
@@ -275,6 +314,34 @@
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseShould.tellMeTheEndDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dddkata.tutoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DDDKataTutoring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dddkata.tutoring" />
+      <option name="MAIN_CLASS_NAME" value="dddkata.tutoring.CourseShould" />
+      <option name="METHOD_NAME" value="tellMeTheEndDate" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -577,12 +644,14 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheEndDate" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheEndDate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -604,12 +673,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="2589000" />
+      <workItem from="1435048325449" duration="4102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3386000" />
+    <option name="totallyTimeSpent" value="4899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -752,11 +821,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/DateRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3266129" vertical-offset="0" max-vertical-offset="496">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="496">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
