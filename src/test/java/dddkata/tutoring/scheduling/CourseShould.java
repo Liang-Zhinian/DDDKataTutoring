@@ -1,7 +1,6 @@
 package dddkata.tutoring.scheduling;
 
 import dddkata.tutoring.crudmanagement.Teacher;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -28,7 +27,6 @@ public class CourseShould {
         assertEquals("2015.04.29", course.getEndDate());
     }
 
-    @Ignore
     @Test
     public void tellMeTheTeachers() {
         // Assert
