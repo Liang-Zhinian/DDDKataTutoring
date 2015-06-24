@@ -27,7 +27,12 @@ public class CourseShould {
         assertEquals("2015.04.29", course.getEndDate());
     }
 
-    // TODO: tellMeTheTeachers
+    @Test
+    public void tellMeTheTeachers() {
+        // Assert
+        assertEquals("幼幼: 13809878765, 杆子: 18976876567", course.getTeachersAndMobiles());
+    }
+
     // TODO: tellMeTheRoom
     // TODO: tellMeTheFee
     // TODO: tellMeTheName
