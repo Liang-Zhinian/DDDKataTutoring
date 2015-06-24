@@ -26,4 +26,11 @@ public class CourseShould {
         // Act & Assert
         assertEquals("2015.04.29", course.getEndDate());
     }
+
+    // TODO: tellMeTheTeachers
+    // TODO: tellMeTheRoom
+    // TODO: tellMeTheFee
+    // TODO: tellMeTheName
+    // TODO: tellMeTheDescription
+    // TODO: tellMeTheAgeOfKids
 }
