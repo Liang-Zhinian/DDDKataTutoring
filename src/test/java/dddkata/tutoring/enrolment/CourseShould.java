@@ -12,7 +12,7 @@ public class CourseShould {
     public void tellMeTheKidsEnrolled() {
         // Arrange
         dddkata.tutoring.enrolment.Course course = CourseRepository.getByName("美术预科");
-        
+
         // Act & Assert
         assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKids());
     }
