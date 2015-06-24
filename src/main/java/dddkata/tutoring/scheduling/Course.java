@@ -8,6 +8,7 @@ import java.util.List;
  * Created by twer on 6/24/15.
  */
 public class Course {
+    private final String name;
     private DateRange dateRange;
     private String description;
     private String age;
@@ -15,9 +16,8 @@ public class Course {
     private String room;
     private List<Teacher> teachers;
 
-    // TODO: Made it private since we use factory to create a course object.
-    public Course(String name) {
-
+    private Course(String name) {
+        this.name = name;
     }
 
     public DateRange getDateRange() {
@@ -88,5 +88,9 @@ public class Course {
         StringBuffer teachersAndMobiles = new StringBuffer();
         this.teachers.forEach(teacher -> teachersAndMobiles.append(teacher.toString()));
         return teachersAndMobiles.toString();
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
