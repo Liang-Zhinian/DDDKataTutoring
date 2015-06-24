@@ -24,7 +24,8 @@ public class Course {
     }
 
     public String getEndDate() {
-        return "2015.04.29";
+        String endDate = this.dateRange.getEndDate();
+        return endDate;
     }
 
     public static Course create(String name, String description, String age, int fee, String room, List<Teacher> teachers, DateRange dateRange) {
