@@ -89,11 +89,21 @@
       <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4717742" vertical-offset="0" max-vertical-offset="496">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5080645" vertical-offset="0" max-vertical-offset="504">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" />
       </list>
     </option>
@@ -395,6 +406,10 @@
               <option name="myItemId" value="tutoring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enrolment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -454,6 +469,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="dddkata.tutoring.enrolment" />
       <recent name="dddkata.tutoring.crudmanagement" />
       <recent name="dddkata.tutoring" />
     </key>
@@ -925,12 +941,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="16233000" />
+      <workItem from="1435048325449" duration="16966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17030000" />
+    <option name="totallyTimeSpent" value="17763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1134,10 +1150,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4717742" vertical-offset="0" max-vertical-offset="496">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.5080645" vertical-offset="0" max-vertical-offset="504">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

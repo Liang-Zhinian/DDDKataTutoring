@@ -10,7 +10,10 @@ import static org.junit.Assert.assertEquals;
 public class CourseShould {
     @Test
     public void tellMeTheKidsEnrolled() {
-        // Assert
+        // Arrange
+        dddkata.tutoring.enrolment.Course course = CourseRepository.getByName("美术预科");
+        
+        // Act & Assert
         assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKids());
     }
 
