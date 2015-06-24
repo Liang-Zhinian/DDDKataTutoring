@@ -85,7 +85,8 @@ public class Course {
     }
 
     public String getTeachersAndMobiles() {
-        String teachersAndMobiles = "幼幼: 13809878765, 杆子: 18976876567";
-        return teachersAndMobiles;
+        StringBuffer teachersAndMobiles = new StringBuffer();
+        this.teachers.forEach(teacher -> teachersAndMobiles.append(teacher.toString()));
+        return teachersAndMobiles.toString();
     }
 }

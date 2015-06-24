@@ -20,4 +20,9 @@ public class Teacher {
         Teacher teacher = new Teacher(name, mobile);
         return teacher;
     }
+
+    @Override
+    public String toString() {
+        return name + ": " + mobile + " ";
+    }
 }
