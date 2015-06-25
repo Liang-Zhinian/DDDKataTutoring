@@ -10,26 +10,20 @@ public class Kid {
     private Fee fee;
     private int age;
 
-    private Kid(String name, String gender, int age) {
+    private Kid(String name, String gender, int age, Guardian guardian, Fee fee) {
         this.name = name;
         this.gender = gender;
         this.age = age;
-    }
-
-    public static Kid newInstance(String name, String gender, int age) {
-        return new Kid(name, gender, age);
-    }
-
-    public void setGuardian(Guardian guardian) {
         this.guardian = guardian;
+        this.fee = fee;
+    }
+
+    public static Kid newInstance(String name, String gender, int age, Guardian guardian, Fee fee) {
+        return new Kid(name, gender, age, guardian, fee);
     }
 
     public Guardian getGuardian() {
         return guardian;
-    }
-
-    public void setFee(Fee fee) {
-        this.fee = fee;
     }
 
     public Fee getFee() {

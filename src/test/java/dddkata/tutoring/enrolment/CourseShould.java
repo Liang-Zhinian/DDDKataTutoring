@@ -13,18 +13,14 @@ public class CourseShould {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3);
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        tianSiSi.setGuardian(tianSiSiMom);
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        tianSiSi.setFee(tianSiSiFee);
+        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
-        Kid maYiDa = Kid.newInstance("马一达", "男", 3);
         Guardian maYiDaDad = Guardian.newInstance("Dad", "13921223211");
-        maYiDa.setGuardian(maYiDaDad);
         Fee maYiDaFee = Fee.newInstance("2015.02.16", 3000);
-        maYiDa.setFee(maYiDaFee);
+        Kid maYiDa = Kid.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
         course.addKid(maYiDa);
 
         // Act & Assert
@@ -36,11 +32,9 @@ public class CourseShould {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3);
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        tianSiSi.setGuardian(tianSiSiMom);
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        tianSiSi.setFee(tianSiSiFee);
+        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
         // Act & Assert
@@ -52,11 +46,9 @@ public class CourseShould {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3);
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        tianSiSi.setGuardian(tianSiSiMom);
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        tianSiSi.setFee(tianSiSiFee);
+        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
         // Act & Assert
