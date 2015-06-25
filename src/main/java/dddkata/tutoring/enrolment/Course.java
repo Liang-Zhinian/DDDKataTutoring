@@ -15,7 +15,9 @@ public class Course {
     }
 
     public String getKids() {
-        return "田斯斯_女_3岁 马一达_男_3岁 ";
+        StringBuffer kidsWithGenderAndAge = new StringBuffer();
+        this.kids.forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
+        return kidsWithGenderAndAge.toString();
     }
 
     public static Course create(String name) {
