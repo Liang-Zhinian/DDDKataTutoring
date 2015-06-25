@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class CourseShould {
     @Test
-    public void tellMeTheEndDate() {
+    public void tell_me_the_end_date() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -27,7 +27,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheTeachers() {
+    public void tell_me_the_teachers() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -43,7 +43,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheRoom() {
+    public void tell_me_the_room() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -58,7 +58,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheFee() {
+    public void tell_me_the_fee() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -73,7 +73,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheName() {
+    public void tell_me_the_name() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -88,7 +88,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheDescription() {
+    public void tell_me_the_description() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -104,7 +104,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheAgeRangeOfKids() {
+    public void tell_me_the_age_range_of_kids() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));

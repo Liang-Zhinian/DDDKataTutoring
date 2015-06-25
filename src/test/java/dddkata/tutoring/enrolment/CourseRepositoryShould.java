@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class CourseRepositoryShould {
     @Test
-    public void persistNewCourse() {
+    public void persist_new_course() {
         // Arrange
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
@@ -28,7 +28,7 @@ public class CourseRepositoryShould {
     }
 
     @Test
-    public void persistExistingCourse() {
+    public void persist_existing_course() {
         // Arrange
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);

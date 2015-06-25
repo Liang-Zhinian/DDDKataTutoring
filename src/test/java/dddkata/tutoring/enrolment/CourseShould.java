@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class CourseShould {
     @Test
-    public void tellMeTheKidsEnrolled() {
+    public void tell_me_the_kids_enrolled() {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 
@@ -28,7 +28,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheGuardianForAKid() {
+    public void tell_me_the_guardian_for_a_kid() {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 
@@ -42,7 +42,7 @@ public class CourseShould {
     }
 
     @Test
-    public void tellMeTheDateWhenAKidsFeeWasPaid() {
+    public void tell_me_the_date_when_a_kids_fee_was_paid() {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
 

@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class CourseRepositoryShould {
 
     @Test
-    public void persistNewCourse() {
+    public void persist_new_course() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -33,7 +33,7 @@ public class CourseRepositoryShould {
     }
 
     @Test
-    public void persistExistingCourse() {
+    public void persist_existing_course() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
