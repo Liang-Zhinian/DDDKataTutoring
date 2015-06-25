@@ -1,6 +1,5 @@
 package dddkata.tutoring.scheduling;
 
-import dddkata.tutoring.crudmanagement.Teacher;
 import org.junit.Test;
 
 import java.util.ArrayList;

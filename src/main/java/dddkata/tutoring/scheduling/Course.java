@@ -1,7 +1,5 @@
 package dddkata.tutoring.scheduling;
 
-import dddkata.tutoring.crudmanagement.Teacher;
-
 import java.util.List;
 
 /**
