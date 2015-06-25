@@ -13,6 +13,7 @@ public class DataService {
     private DataService() {
     }
 
+    // TODO: make it singleton
     public static DataService getInstance() {
         return new DataService();
     }
