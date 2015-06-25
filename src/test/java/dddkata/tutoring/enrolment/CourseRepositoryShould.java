@@ -27,7 +27,6 @@ public class CourseRepositoryShould {
         assertEquals(kidToBeEnrolled, kidEnrolled);
     }
 
-    // TODO: listAllKidsForACourse
     // TODO: updateKidInfoForACourse
     // TODO: deleteKidFromACourse
     // TODO: updateGuardianInfoOfAKidForACourse

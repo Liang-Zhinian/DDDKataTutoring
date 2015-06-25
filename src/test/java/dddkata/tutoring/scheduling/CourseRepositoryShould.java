@@ -32,10 +32,10 @@ public class CourseRepositoryShould {
         assertEquals(courseToBeCreated, courseRetrieved);
     }
 
-    // TODO: readCourseByNameFromRepository
+    // TODO: listAllCoursesFromRepository
     // TODO: updateCourseByNameInRepository
     // TODO: deleteCourseByNameFromRepository
-    // TODO: createATeacherInCourseByNameInRepository
+    // TODO: addATeacherInCourseByNameInRepository
     // TODO: updateTeacherByNameInCourseInRepository
     // TODO: deleteTeacherByNameFromCourseFromRepository
     // TODO: updateDateRangeOfCourseByNameInRepository
