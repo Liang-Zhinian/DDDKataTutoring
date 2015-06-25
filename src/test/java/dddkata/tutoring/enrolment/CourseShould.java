@@ -24,7 +24,7 @@ public class CourseShould {
         course.addKid(maYiDa);
 
         // Act & Assert
-        assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKids());
+        assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKidsWithGenderAndAge());
     }
 
     @Test

@@ -13,7 +13,7 @@ public class Course {
         this.name = name;
     }
 
-    public String getKids() {
+    public String getKidsWithGenderAndAge() {
         StringBuffer kidsWithGenderAndAge = new StringBuffer();
         this.kids.values().forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
         return kidsWithGenderAndAge.toString();
@@ -42,5 +42,9 @@ public class Course {
         Kid kid = kids.get(kidName);
         String fee = kid.getFee().toString();
         return fee;
+    }
+
+    public HashMap<String, Kid> getKids() {
+        return kids;
     }
 }

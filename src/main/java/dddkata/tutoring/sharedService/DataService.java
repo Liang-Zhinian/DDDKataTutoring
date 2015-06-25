@@ -1,5 +1,6 @@
 package dddkata.tutoring.sharedService;
 
+import dddkata.tutoring.enrolment.Kid;
 import dddkata.tutoring.scheduling.Course;
 
 import java.util.HashMap;
@@ -32,5 +33,10 @@ public class DataService {
 
     public void enrolAKidForACourse(String courseName, dddkata.tutoring.enrolment.Course enrolmentCourse) {
         this.enrolmentCourses.put(courseName, enrolmentCourse);
+    }
+
+    public Kid retrieveAKidForACourse(String courseName, String kidName) {
+        Kid kid = this.enrolmentCourses.get(courseName).getKids().get(kidName);
+        return kid;
     }
 }
