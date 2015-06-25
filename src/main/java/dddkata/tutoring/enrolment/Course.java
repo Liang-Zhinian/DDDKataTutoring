@@ -37,4 +37,10 @@ public class Course {
         String guardian = kid.getGuardian().toString();
         return guardian;
     }
+
+    public String getFeeFor(String kidName) {
+        Kid kid = kids.get(kidName);
+        String fee = kid.getFee().toString();
+        return fee;
+    }
 }

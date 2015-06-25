@@ -49,6 +49,15 @@ public class CourseShould {
 
     @Test
     public void tellMeTheDateWhenAKidsFeeWasPaid() {
+        // Arrange
+        dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
+
+        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3);
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        tianSiSi.setGuardian(tianSiSiMom);
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        tianSiSi.setFee(tianSiSiFee);
+        course.addKid(tianSiSi);
 
         // Act & Assert
         assertEquals("2015.02.15_3000", course.getFeeFor("田斯斯"));
