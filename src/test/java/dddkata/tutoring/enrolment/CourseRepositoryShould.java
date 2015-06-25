@@ -16,9 +16,11 @@ public class CourseRepositoryShould {
         Kid kidToBeEnrolled = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         dddkata.tutoring.enrolment.CourseRepository repository =
                 dddkata.tutoring.enrolment.CourseRepository.newInstance();
+        Course course = Course.newInstance("美术预科");
+        course.addKid(kidToBeEnrolled);
 
         // Act
-        repository.enrolAKidForACourse("美术预科", "田斯斯", kidToBeEnrolled);
+        repository.enrolAKidForACourse("美术预科", course);
 
         // Assert
         Kid kidEnrolled = repository.retrieveAKidForACourse("美术预科", "田斯斯");
