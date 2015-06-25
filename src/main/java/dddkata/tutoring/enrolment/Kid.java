@@ -40,4 +40,8 @@ public class Kid {
     public String toString() {
         return this.name + "_" + this.gender + "_" + this.age + "岁 ";
     }
+
+    public String getName() {
+        return name;
+    }
 }
