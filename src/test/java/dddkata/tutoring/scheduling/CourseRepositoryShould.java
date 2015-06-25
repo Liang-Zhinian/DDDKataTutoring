@@ -14,6 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class CourseRepositoryShould {
     private dddkata.tutoring.scheduling.CourseRepository repository;
 
+    // TODO: rename create() to be newInstance()
     @Test
     public void createACourseInRepository() {
         // Arrange
