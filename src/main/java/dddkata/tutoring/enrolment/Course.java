@@ -1,14 +1,13 @@
 package dddkata.tutoring.enrolment;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 
 /**
  * Created by twer on 6/24/15.
  */
 public class Course {
     private final String name;
-    private List<Kid> kids = new ArrayList<>();
+    private HashMap<String, Kid> kids = new HashMap<>();
 
     private Course(String name) {
         this.name = name;
@@ -16,7 +15,7 @@ public class Course {
 
     public String getKids() {
         StringBuffer kidsWithGenderAndAge = new StringBuffer();
-        this.kids.forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
+        this.kids.values().forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
         return kidsWithGenderAndAge.toString();
     }
 
@@ -30,6 +29,12 @@ public class Course {
     }
 
     public void addKid(Kid kid) {
-        this.kids.add(kid);
+        this.kids.put(kid.getName(), kid);
+    }
+
+    public String getGuardianFor(String kidName) {
+        Kid kid = kids.get(kidName);
+        String guardian = kid.getGuardian().toString();
+        return guardian;
     }
 }
