@@ -29,7 +29,7 @@ public class Course {
         return endDate;
     }
 
-    public static Course create(String name, String description, String age, int fee, String room, List<Teacher> teachers, DateRange dateRange) {
+    public static Course newInstance(String name, String description, String age, int fee, String room, List<Teacher> teachers, DateRange dateRange) {
         Course course = new Course(name);
         course.setDescription(description);
         course.setAge(age);

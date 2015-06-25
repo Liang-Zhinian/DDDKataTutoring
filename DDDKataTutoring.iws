@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +73,10 @@
       <file leaf-file-name="CourseRepositoryShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="918">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#465#0" expanded="true" />
+                <element signature="e#407#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31048387" vertical-offset="134" max-vertical-offset="666">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="846">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.39314517" vertical-offset="93" max-vertical-offset="846">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,17 +142,16 @@
       <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="2286">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2286">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#387#396#0" expanded="true" />
-                <element signature="e#965#974#0" expanded="true" />
-                <element signature="e#1631#1640#0" expanded="true" />
-                <element signature="e#2194#2203#0" expanded="true" />
-                <element signature="e#2756#2765#0" expanded="true" />
-                <element signature="e#3328#3337#0" expanded="true" />
-                <element signature="e#3991#4000#0" expanded="true" />
+                <element signature="e#975#984#0" expanded="true" />
+                <element signature="e#1656#1665#0" expanded="true" />
+                <element signature="e#2229#2238#0" expanded="true" />
+                <element signature="e#2801#2810#0" expanded="true" />
+                <element signature="e#3383#3392#0" expanded="true" />
+                <element signature="e#4056#4065#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,9 +246,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Fee.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Kid.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
       </list>
     </option>
   </component>
@@ -997,12 +998,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="30465000" />
+      <workItem from="1435048325449" duration="30657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31262000" />
+    <option name="totallyTimeSpent" value="31454000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1157,8 +1158,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="612">
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1186,30 +1187,30 @@
             <element signature="e#439#440#0" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1280,44 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="846">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2286">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#396#0" expanded="true" />
-            <element signature="e#965#974#0" expanded="true" />
-            <element signature="e#1631#1640#0" expanded="true" />
-            <element signature="e#2194#2203#0" expanded="true" />
-            <element signature="e#2756#2765#0" expanded="true" />
-            <element signature="e#3328#3337#0" expanded="true" />
-            <element signature="e#3991#4000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="918">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="612">
@@ -1335,7 +1298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31048387" vertical-offset="134" max-vertical-offset="666">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1343,6 +1306,42 @@
             <element signature="e#589#590#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#407#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2286">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#387#396#0" expanded="true" />
+            <element signature="e#975#984#0" expanded="true" />
+            <element signature="e#1656#1665#0" expanded="true" />
+            <element signature="e#2229#2238#0" expanded="true" />
+            <element signature="e#2801#2810#0" expanded="true" />
+            <element signature="e#3383#3392#0" expanded="true" />
+            <element signature="e#4056#4065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39314517" vertical-offset="93" max-vertical-offset="846">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,7 +16,7 @@ public class Teacher {
         this.mobile = mobile;
     }
 
-    public static Teacher create(String name, String mobile) {
+    public static Teacher newInstance(String name, String mobile) {
         Teacher teacher = new Teacher(name, mobile);
         return teacher;
     }

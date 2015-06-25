@@ -16,9 +16,9 @@ public class CourseShould {
     public void tellMeTheEndDate() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -31,10 +31,10 @@ public class CourseShould {
     public void tellMeTheTeachers() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
-        teachers.add(Teacher.create("杆子", "18976876567"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("杆子", "18976876567"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -47,9 +47,9 @@ public class CourseShould {
     public void tellMeTheRoom() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -62,9 +62,9 @@ public class CourseShould {
     public void tellMeTheFee() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -77,9 +77,9 @@ public class CourseShould {
     public void tellMeTheName() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -92,9 +92,9 @@ public class CourseShould {
     public void tellMeTheDescription() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -108,9 +108,9 @@ public class CourseShould {
     public void tellMeTheAgeRangeOfKids() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
-        teachers.add(Teacher.create("幼幼", "13809878765"));
+        teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course course = Course.create("美术预科",
+        Course course = Course.newInstance("美术预科",
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
