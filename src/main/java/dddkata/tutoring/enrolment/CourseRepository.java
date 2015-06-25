@@ -11,6 +11,6 @@ public class CourseRepository {
     }
 
     private static dddkata.tutoring.scheduling.Course getCourseInSchedulingByName(String courseName) {
-        return dddkata.tutoring.scheduling.CourseRepository.getByName("美术预科");
+        return courseRepositoryIn.retrieve("美术预科");
     }
 }

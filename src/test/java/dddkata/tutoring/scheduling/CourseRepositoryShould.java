@@ -12,6 +12,8 @@ import static org.junit.Assert.assertEquals;
  * Created by twer on 6/24/15.
  */
 public class CourseRepositoryShould {
+    private dddkata.tutoring.scheduling.CourseRepository repository;
+
     @Test
     public void createACourseInRepository() {
         // Arrange
