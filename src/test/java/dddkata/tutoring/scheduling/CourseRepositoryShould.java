@@ -12,7 +12,6 @@ import static org.junit.Assert.assertEquals;
  * Created by twer on 6/24/15.
  */
 public class CourseRepositoryShould {
-    private dddkata.tutoring.scheduling.CourseRepository repository;
 
     // TODO: rename create() to be newInstance()
     @Test
@@ -25,12 +24,13 @@ public class CourseRepositoryShould {
                 "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
                 "2～3岁",
                 3000, "达芬奇", teachers, dateRange);
+        CourseRepository repository = CourseRepository.newInstance();
 
         // Act
-        this.repository.save("美术预科", courseToBeCreated);
+        repository.save("美术预科", courseToBeCreated);
 
         // Assert
-        Course courseRetrieved = this.repository.retrieve("美术预科");
+        Course courseRetrieved = repository.retrieve("美术预科");
         assertEquals(courseToBeCreated, courseRetrieved);
     }
 
