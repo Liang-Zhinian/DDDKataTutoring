@@ -10,7 +10,16 @@ import static org.junit.Assert.assertEquals;
 public class CourseRepositoryShould {
     @Test
     public void enrolAKidForACourse() {
+        // Arrange
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Kid kidToBeEnrolled = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+
+        // Act
+        repository.enrolAKidForACourse("美术预科", "田斯斯", kidToBeEnrolled);
+
         // Assert
+        Kid kidEnrolled = repository.retrieveAKidForACourse("美术预科", "田斯斯");
         assertEquals(kidToBeEnrolled, kidEnrolled);
     }
 
