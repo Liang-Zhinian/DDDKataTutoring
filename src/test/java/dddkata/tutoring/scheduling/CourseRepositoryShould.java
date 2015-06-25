@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class CourseRepositoryShould {
 
     @Test
-    public void createACourseInRepository() {
+    public void persistNewCourse() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -32,12 +32,6 @@ public class CourseRepositoryShould {
         assertEquals(courseToBeCreated, courseRetrieved);
     }
 
-    // TODO: listAllCoursesFromRepository
-    // TODO: updateCourseByNameInRepository
-    // TODO: deleteCourseByNameFromRepository
-    // TODO: addATeacherInCourseByNameInRepository
-    // TODO: updateTeacherByNameInCourseInRepository
-    // TODO: deleteTeacherByNameFromCourseFromRepository
-    // TODO: updateDateRangeOfCourseByNameInRepository
+    // TODO: persistExistingCourse
 
 }

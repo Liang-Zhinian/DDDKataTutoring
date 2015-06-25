@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class CourseRepositoryShould {
     @Test
-    public void enrolAKidForACourse() {
+    public void persistNewCourse() {
         // Arrange
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
@@ -27,8 +27,5 @@ public class CourseRepositoryShould {
         assertEquals(kidToBeEnrolled, kidEnrolled);
     }
 
-    // TODO: updateKidInfoForACourse
-    // TODO: deleteKidFromACourse
-    // TODO: updateGuardianInfoOfAKidForACourse
-    // TODO: updateFeeInfoOfAKidForACourse
+    // TODO: persistExistingCourse
 }
