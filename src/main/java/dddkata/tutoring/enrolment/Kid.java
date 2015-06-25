@@ -38,4 +38,30 @@ public class Kid {
     public String getName() {
         return name;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Kid kid = (Kid) o;
+
+        if (age != kid.age) return false;
+        if (!fee.equals(kid.fee)) return false;
+        if (!gender.equals(kid.gender)) return false;
+        if (!guardian.equals(kid.guardian)) return false;
+        if (!name.equals(kid.name)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = gender.hashCode();
+        result = 31 * result + name.hashCode();
+        result = 31 * result + guardian.hashCode();
+        result = 31 * result + fee.hashCode();
+        result = 31 * result + age;
+        return result;
+    }
 }
