@@ -13,11 +13,11 @@ public class CourseRepository {
 
     }
 
-    public void enrolAKidForACourse(String courseName, String kidName, Kid kid) {
-        dataService.enrolAKidForACourse(courseName, kidName, kid);
-    }
-
     public static CourseRepository newInstance() {
         return new CourseRepository();
+    }
+
+    public void enrolAKidForACourse(String courseName, Course enrolmentCourse) {
+        this.dataService.enrolAKidForACourse(courseName, enrolmentCourse);
     }
 }
