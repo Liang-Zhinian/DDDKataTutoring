@@ -8,14 +8,17 @@ import java.util.HashMap;
  * Created by twer on 6/25/15.
  */
 public class DataService {
+    private static DataService singleton;
     private HashMap<String, Course> data = new HashMap<>();
 
     private DataService() {
     }
 
-    // TODO: make it singleton
     public static DataService getInstance() {
-        return new DataService();
+        if (singleton == null) {
+            singleton = new DataService();
+        }
+        return singleton;
     }
 
     public void saveSchedulingCourse(String name, Course course) {
