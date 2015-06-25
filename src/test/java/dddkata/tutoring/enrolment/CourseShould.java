@@ -31,6 +31,11 @@ public class CourseShould {
         assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKids());
     }
 
-    // TODO: tellMeTheGuardianForAKid
+    @Test
+    public void tellMeTheGuardianForAKid() {
+        // Act & Assert
+        assertEquals("Mom_13921223456", course.getGuardianFor("田斯斯"));
+    }
+
     // TODO: tellMeTheDateWhenAKidsFeeWasPaid
 }
