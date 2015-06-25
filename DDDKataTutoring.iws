@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,8 +126,8 @@
       <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39314517" vertical-offset="93" max-vertical-offset="846">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.4657258" vertical-offset="39" max-vertical-offset="756">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,7 +237,6 @@
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/CourseRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Guardian.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Fee.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Kid.java" />
@@ -249,6 +244,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/sharedService/DataService.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" />
       </list>
     </option>
   </component>
@@ -973,10 +969,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring.scheduling in DDDKataTutoring" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring.enrolment in DDDKataTutoring" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseShould (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheKidsEnrolled" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheKidsEnrolled" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring.scheduling in DDDKataTutoring" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring.enrolment in DDDKataTutoring" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseShould (1)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -998,12 +994,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="30657000" />
+      <workItem from="1435048325449" duration="30766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31454000" />
+    <option name="totallyTimeSpent" value="31563000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1040,8 +1036,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1338,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39314517" vertical-offset="93" max-vertical-offset="846">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.4657258" vertical-offset="39" max-vertical-offset="756">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,9 +2,6 @@ package dddkata.tutoring.enrolment;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -15,8 +12,6 @@ public class CourseShould {
     public void tellMeTheKidsEnrolled() {
         // Arrange
         dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
-
-        List<Kid> kids = new ArrayList<Kid>();
 
         Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3);
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
