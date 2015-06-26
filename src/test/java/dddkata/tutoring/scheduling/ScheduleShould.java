@@ -3,8 +3,8 @@ package dddkata.tutoring.scheduling;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
@@ -35,7 +35,7 @@ public class ScheduleShould {
         schedule.addCourse(courseHandwriting);
 
         // Act
-        HashMap<String, Course> conflictedCourses = schedule.getConflictedCourses();
+        Map<String, Course> conflictedCourses = schedule.getConflictedCourses();
 
         // Assert
         assertEquals(coursePreparatory, conflictedCourses.get("美术预科"));
