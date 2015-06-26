@@ -20,8 +20,10 @@ public class Schedule {
     }
 
     public void addCourse(Course course) {
+        if (this.courses.size() > 0) {
+            markTwoConflictedCourses(course);
+        }
         this.courses.put(course.getName(), course);
-        markTwoConflictedCourses(course);
     }
 
     private void markTwoConflictedCourses(Course courseJustAdded) {
