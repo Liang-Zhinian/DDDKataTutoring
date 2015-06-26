@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Teacher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4657258" vertical-offset="813" max-vertical-offset="1458">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1458">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#430#439#0" expanded="true" />
@@ -83,12 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1098">
+              <caret line="23" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.2868526" vertical-offset="0" max-vertical-offset="753">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,16 +183,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChronoLocalDateTime.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/chrono/ChronoLocalDateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6031" max-vertical-offset="9378">
-              <caret line="445" column="20" selection-start-line="445" selection-start-column="20" selection-end-line="445" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ZoneOffset.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/ZoneOffset.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -218,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Kid.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseRepositoryShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseRepositoryShould.java" />
@@ -232,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" />
       </list>
     </option>
   </component>
@@ -960,12 +960,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="63000000" />
+      <workItem from="1435048325449" duration="64174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63797000" />
+    <option name="totallyTimeSpent" value="64971000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -989,7 +989,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1003,7 +1003,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1221,16 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1134">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1443" max-vertical-offset="2268">
@@ -1323,14 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
@@ -1379,14 +1361,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/CourseShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1098">
+          <caret line="23" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4657258" vertical-offset="813" max-vertical-offset="1458">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1458">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#439#0" expanded="true" />
             <element signature="e#1838#1847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2868526" vertical-offset="0" max-vertical-offset="753">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
