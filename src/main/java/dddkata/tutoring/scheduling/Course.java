@@ -127,6 +127,10 @@ public class Course {
                 && this.dateRange.conflictsWith(course.getDateRange())) {
             return true;
         }
+        if (isThereATeacherInThisTeacherListContainedInThatTeacherList()
+                && this.dateRange.conflictsWith(course.getDateRange())) {
+            return true;
+        }
         return false;
     }
 }

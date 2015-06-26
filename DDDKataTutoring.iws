@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,14 +68,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScheduleShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7923387" vertical-offset="201" max-vertical-offset="954">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="1458">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#430#439#0" expanded="true" />
+                <element signature="e#1838#1847#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +95,8 @@
       <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="846">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="846">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#345#346#0" expanded="true" />
@@ -108,11 +110,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="1980">
-              <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+            <state vertical-scroll-proportion="1.046371" vertical-offset="1299" max-vertical-offset="2052">
+              <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -183,16 +195,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="41652">
-              <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -225,12 +227,12 @@
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/ZoneOffset.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/chrono/ChronoLocalDateTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
       </list>
     </option>
   </component>
@@ -486,35 +488,7 @@
       <recent name="dddkata.tutoring.scheduling" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.dddkata.tutoring in DDDKataTutoring">
-    <configuration default="false" name="CourseShould.tellMeTheKidsEnrolled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dddkata.tutoring.enrolment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DDDKataTutoring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dddkata.tutoring.enrolment" />
-      <option name="MAIN_CLASS_NAME" value="dddkata.tutoring.enrolment.CourseShould" />
-      <option name="METHOD_NAME" value="tellMeTheKidsEnrolled" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range">
     <configuration default="false" name="dddkata.tutoring in DDDKataTutoring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -612,6 +586,34 @@
       <option name="PACKAGE_NAME" value="dddkata.tutoring.scheduling" />
       <option name="MAIN_CLASS_NAME" value="dddkata.tutoring.scheduling.ScheduleShould" />
       <option name="METHOD_NAME" value="let_me_know_if_two_courses_are_arranged_in_the_same_room_within_the_same_time_range" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScheduleShould.let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dddkata.tutoring.scheduling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DDDKataTutoring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dddkata.tutoring.scheduling" />
+      <option name="MAIN_CLASS_NAME" value="dddkata.tutoring.scheduling.ScheduleShould" />
+      <option name="METHOD_NAME" value="let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -916,19 +918,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheKidsEnrolled" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_in_the_same_room_within_the_same_time_range" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_in_the_same_room_within_the_same_time_range" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_in_the_same_room_within_the_same_time_range" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseShould.tellMeTheKidsEnrolled" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ScheduleShould.let_me_know_if_two_courses_are_arranged_in_the_same_room_within_the_same_time_range" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseRepositoryShould.persistExistingCourse" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -953,12 +955,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="60369000" />
+      <workItem from="1435048325449" duration="61634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61166000" />
+    <option name="totallyTimeSpent" value="62431000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1118,18 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="936">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -1280,30 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="846">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="1980">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="33300">
@@ -1356,14 +1322,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="846">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7923387" vertical-offset="201" max-vertical-offset="954">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="1458">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#439#0" expanded="true" />
+            <element signature="e#1838#1847#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.046371" vertical-offset="1299" max-vertical-offset="2052">
+          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
