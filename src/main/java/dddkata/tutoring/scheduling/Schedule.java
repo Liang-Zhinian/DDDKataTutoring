@@ -40,4 +40,10 @@ public class Schedule {
     public Map<String, Course> getConflictedCourses() {
         return conflictedCourses;
     }
+
+    public boolean isOverlapped(String thisCourseName, String thatCourseName) {
+        Course thisCourse = this.courses.get(thisCourseName);
+        Course thatCourse = this.courses.get(thatCourseName);
+        return thisCourse.isOverlappedWith(thatCourse);
+    }
 }
