@@ -56,8 +56,15 @@ public class DateRange {
         return true;
     }
 
+    private boolean isThisStartTimeLaterThanThatEndTime(DateRange dateRange) {
+        return convertDateStringToLocalDateTime(this.startDateString + " " + this.startTimeString).toInstant(ZoneOffset.of("+08:00"))
+                .isAfter(dateRange.convertDateStringToLocalDateTime(this.startDateString + " " + dateRange.getEndTimeString()).toInstant(ZoneOffset.of("+08:00")));
+    }
+
     private boolean isThisEndTimeEarlyThanThatStartTime(DateRange dateRange) {
-        return false;
+        return convertDateStringToLocalDateTime(getEndDateString() + " " + this.endTimeString).toInstant(ZoneOffset.of("+08:00"))
+                .isBefore(dateRange.convertDateStringToLocalDateTime(getEndDateString() + " "
+                        + dateRange.getStartTimeString()).toInstant(ZoneOffset.of("+08:00")));
     }
 
     private boolean isDateOverlapped(DateRange dateRange) {
