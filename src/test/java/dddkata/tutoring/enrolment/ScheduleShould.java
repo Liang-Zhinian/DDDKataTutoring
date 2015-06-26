@@ -1,7 +1,7 @@
 package dddkata.tutoring.enrolment;
 
-import dddkata.tutoring.scheduling.*;
-import dddkata.tutoring.scheduling.Course;
+import dddkata.tutoring.scheduling.DateRange;
+import dddkata.tutoring.scheduling.Teacher;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -52,13 +52,14 @@ public class ScheduleShould {
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPreparatory = Fee.newInstance("2015.02.15", 3000);
         Kid tianSiSiForPreparatory = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPreparatory);
-        coursePreparatoryInEnrolment.addKid(tianSiSiForPreparatory);
+        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePreparatoryInEnrolment);
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
-        courseHandwritingInEnrolment.addKid(tianSiSiForHandwriting);
+        scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment);
 
-        Map<String, Course> conflictedCourses = scheduleInEnrolment.getConflictedCourses();
+        Map<String, dddkata.tutoring.enrolment.Course> conflictedCourses
+                = scheduleInEnrolment.getConflictedCourses();
 
         // Assert
         assertEquals(coursePreparatoryInScheduling, conflictedCourses.get("美术预科"));

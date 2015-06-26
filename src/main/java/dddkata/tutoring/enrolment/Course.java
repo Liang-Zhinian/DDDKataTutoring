@@ -19,11 +19,6 @@ public class Course {
         return kidsWithGenderAndAge.toString();
     }
 
-    public static Course create(String name) {
-        Course course = new Course(name);
-        return course;
-    }
-
     public static Course newInstance(String name) {
         return new Course(name);
     }
@@ -46,5 +41,9 @@ public class Course {
 
     public HashMap<String, Kid> getKids() {
         return kids;
+    }
+
+    public String getName() {
+        return name;
     }
 }
