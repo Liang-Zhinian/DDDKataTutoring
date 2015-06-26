@@ -1,7 +1,6 @@
 package dddkata.tutoring.enrolment;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -10,7 +9,7 @@ import java.util.Map;
 public class Schedule {
     private HashMap<String, Course> courses = new HashMap<>();
     private HashMap<String, Course> conflictedCourses = null;
-    private HashMap<String, List<Course>> kidAndEnrolledCourses = new HashMap<>();
+    private HashMap<String, Course> kidAndEnrolledCourse = new HashMap<>();
 
     private Schedule(String schoolName) {
 
@@ -28,18 +27,19 @@ public class Schedule {
         return conflictedCourses;
     }
 
-    public void addKid(Kid kid, String courseString, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
-        if (this.kidAndEnrolledCourses.keySet().contains(kid.getName())
-                && this.kidAndEnrolledCourses.get(kid.getName()).size() > 0) {
-            markTwoConflictedCourses(courseString, scheduleInScheduling);
+    public void addKid(Kid kid, String courseName, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
+        if (this.kidAndEnrolledCourse.size() > 0
+                && this.kidAndEnrolledCourse.keySet().contains(kid.getName())) {
+            markTwoConflictedCourses(courseName, scheduleInScheduling);
         }
-        this.courses.get(courseString).addKid(kid);
+        this.courses.get(courseName).addKid(kid);
+        this.kidAndEnrolledCourse.put(kid.getName(), this.courses.get(courseName));
     }
 
     private void markTwoConflictedCourses(String courseStringJustAdded, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
         conflictedCourses = new HashMap<>();
         for(Map.Entry<String, Course> courseWithName : courses.entrySet()) {
-            if (isOverlapped(courseWithName.getValue(), this.courses.get(courseStringJustAdded), scheduleInScheduling)) {
+            if ( !courseStringJustAdded.equals(courseWithName.getKey()) && isOverlapped(courseWithName.getValue(), this.courses.get(courseStringJustAdded), scheduleInScheduling)) {
                 conflictedCourses.put(courseWithName.getKey(), courseWithName.getValue());
                 conflictedCourses.put(this.courses.get(courseStringJustAdded).getName()
                 , this.courses.get(courseStringJustAdded));

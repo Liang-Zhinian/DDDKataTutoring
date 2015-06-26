@@ -62,7 +62,7 @@ public class ScheduleShould {
                 = scheduleInEnrolment.getConflictedCourses();
 
         // Assert
-        assertEquals(coursePreparatoryInScheduling, conflictedCourses.get("美术预科"));
-        assertEquals(courseHandwritingInScheduling, conflictedCourses.get("书法"));
+        assertEquals(coursePreparatoryInEnrolment, conflictedCourses.get("美术预科"));
+        assertEquals(courseHandwritingInEnrolment, conflictedCourses.get("书法"));
     }
 }

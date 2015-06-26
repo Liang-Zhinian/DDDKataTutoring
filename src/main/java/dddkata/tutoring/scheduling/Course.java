@@ -142,4 +142,11 @@ public class Course {
         }
         return false;
     }
+
+    public boolean isOverlappedWith(Course course) {
+        if (this.dateRange.conflictsWith(course.getDateRange())) {
+            return true;
+        }
+        return false;
+    }
 }
