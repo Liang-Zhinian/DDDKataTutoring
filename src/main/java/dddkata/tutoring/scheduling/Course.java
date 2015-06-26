@@ -121,4 +121,12 @@ public class Course {
         result = 31 * result + teachers.hashCode();
         return result;
     }
+
+    public boolean conflictsWith(Course course) {
+        if (!this.name.equals(course.getName()) && this.room.equals(course.getRoom())
+                && this.dateRange.conflictsWith(course.getDateRange())) {
+            return true;
+        }
+        return false;
+    }
 }
