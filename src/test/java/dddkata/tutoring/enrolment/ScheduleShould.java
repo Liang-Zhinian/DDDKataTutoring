@@ -52,11 +52,11 @@ public class ScheduleShould {
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPreparatory = Fee.newInstance("2015.02.15", 3000);
         Kid tianSiSiForPreparatory = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPreparatory);
-        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePreparatoryInEnrolment);
+        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePreparatoryInEnrolment.getName());
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
-        scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment);
+        scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName());
 
         Map<String, dddkata.tutoring.enrolment.Course> conflictedCourses
                 = scheduleInEnrolment.getConflictedCourses();
