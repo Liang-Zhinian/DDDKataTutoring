@@ -58,9 +58,10 @@ public class ScheduleShould {
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
         courseHandwritingInEnrolment.addKid(tianSiSiForHandwriting);
 
-        Map<String, Course> conflictedCourse = scheduleInEnrolment.getConflictedCourse();
+        Map<String, Course> conflictedCourses = scheduleInEnrolment.getConflictedCourses();
 
         // Assert
-        assertEquals(courseHandwritingInScheduling, conflictedCourse);
+        assertEquals(coursePreparatoryInScheduling, conflictedCourses.get("美术预科"));
+        assertEquals(courseHandwritingInScheduling, conflictedCourses.get("书法"));
     }
 }
