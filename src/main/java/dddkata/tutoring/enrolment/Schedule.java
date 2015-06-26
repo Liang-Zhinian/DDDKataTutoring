@@ -49,6 +49,6 @@ public class Schedule {
     }
 
     private boolean isOverlapped(Course thisCourse, Course thatCourse, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
-        return scheduleInScheduling.isOverlapped(thisCourse, thatCourse);
+        return scheduleInScheduling.isOverlapped(thisCourse.getName(), thatCourse.getName());
     }
 }
