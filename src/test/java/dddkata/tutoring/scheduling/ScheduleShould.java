@@ -44,7 +44,7 @@ public class ScheduleShould {
 
     @Test
     public void let_me_know_if_two_courses_are_arranged_for_one_teacher_within_the_same_time_range() {
-        // Arrange
+        // Arrange & Act
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
@@ -64,7 +64,6 @@ public class ScheduleShould {
                 2000, "毕加索", teachers, dateRange);
         schedule.addCourse(courseHandwriting);
 
-        // Act
         Map<String, Course> conflictedCourses = schedule.getConflictedCourses();
 
         // Assert
