@@ -16,7 +16,7 @@ public class DataService {
     private DataService() {
     }
 
-    public static DataService getInstance() {
+    public static synchronized DataService getInstance() {
         if (singleton == null) {
             singleton = new DataService();
         }
