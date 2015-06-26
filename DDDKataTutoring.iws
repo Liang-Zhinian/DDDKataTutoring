@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" />
     </list>
@@ -144,14 +145,16 @@
       <file leaf-file-name="DateRange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2842742" vertical-offset="489" max-vertical-offset="1386">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.5697211" vertical-offset="723" max-vertical-offset="1602">
+              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2463#2464#0" expanded="true" />
-                <element signature="e#2518#2519#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2586#2587#0" expanded="true" />
+                <element signature="e#2813#2814#0" expanded="true" />
+                <element signature="e#2868#2869#0" expanded="true" />
+                <element signature="e#2904#2905#0" expanded="true" />
+                <element signature="e#2936#2937#0" expanded="true" />
+                <element signature="e#2972#2973#0" expanded="true" />
+                <element signature="e#3004#3005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -958,12 +961,12 @@
       <workItem from="1434718545507" duration="430000" />
       <workItem from="1434858981021" duration="12000" />
       <workItem from="1435043818052" duration="169000" />
-      <workItem from="1435048325449" duration="56206000" />
+      <workItem from="1435048325449" duration="57379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57003000" />
+    <option name="totallyTimeSpent" value="58176000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -991,7 +994,7 @@
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1338,14 +1341,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2842742" vertical-offset="489" max-vertical-offset="1386">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.5697211" vertical-offset="723" max-vertical-offset="1602">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
-            <element signature="e#2518#2519#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
+            <element signature="e#2868#2869#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2936#2937#0" expanded="true" />
+            <element signature="e#2972#2973#0" expanded="true" />
+            <element signature="e#3004#3005#0" expanded="true" />
           </folding>
         </state>
       </provider>

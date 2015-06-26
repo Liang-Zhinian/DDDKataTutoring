@@ -22,7 +22,7 @@ public class DateRange {
         this.endTime = endTime;
     }
 
-    public String getEndDate() {
+    public String getEndDateString() {
         DateTimeFormatter yyyyMMddHHmmFormatter = DateTimeFormatter.ofPattern("yyyy.MM.dd HH:mm");
         LocalDateTime firstStartTime = LocalDateTime.parse(this.startDate + " " + this.startTime, yyyyMMddHHmmFormatter);
         LocalDateTime firstEndTime = LocalDateTime.parse(this.startDate + " " + this.endTime, yyyyMMddHHmmFormatter);
@@ -61,11 +61,23 @@ public class DateRange {
         return true;
     }
 
+    private boolean isThisEndDateEarlyThanThatStartDate(DateRange dateRange) {
+        return getEndDateTime(getEndDateString()).before(dateRange.getEndDateTime(dateRange.getEndDateString()));
+    }
+
+    private boolean isTheSameEndDate(DateRange dateRange) {
+        return this.getEndDateString().equals(dateRange.getEndDateString());
+    }
+
     private boolean isTheSameDayOfWeek(String dayOfWeek) {
         return this.dayOfWeek.equals(dayOfWeek);
     }
 
     public String getDayOfWeek() {
         return dayOfWeek;
+    }
+
+    public String getStartDate() {
+        return startDate;
     }
 }

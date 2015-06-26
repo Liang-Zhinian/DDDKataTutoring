@@ -23,7 +23,7 @@ public class Course {
     }
 
     public String getEndDate() {
-        String endDate = this.dateRange.getEndDate();
+        String endDate = this.dateRange.getEndDateString();
         return endDate;
     }
 
