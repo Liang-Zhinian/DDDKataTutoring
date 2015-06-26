@@ -42,14 +42,22 @@ public class DateRange {
         return false;
     }
 
+    public String getStartTimeString() {
+        return startTimeString;
+    }
+
     private boolean isTimeOverlapped(DateRange dateRange) {
-        if (this.startTimeString.equals(dateRange.getStartTime()) && this.endTimeString.equals(dateRange.getEndTime())) {
+        if (this.startTimeString.equals(dateRange.getStartTimeString()) && this.endTimeString.equals(dateRange.getEndTimeString())) {
             return true;
         }
         if (isThisEndTimeEarlyThanThatStartTime(dateRange) || isThisStartTimeLaterThanThatEndTime(dateRange)) {
             return false;
         }
         return true;
+    }
+
+    private boolean isThisEndTimeEarlyThanThatStartTime(DateRange dateRange) {
+        return false;
     }
 
     private boolean isDateOverlapped(DateRange dateRange) {
@@ -63,18 +71,18 @@ public class DateRange {
     }
 
     private boolean isThisStartDateLaterThanThatEndDate(DateRange dateRange) {
-        return convertDateStringToLocalDateTime(this.startDateString).toInstant(ZoneOffset.of("+08:00"))
-                .isAfter(dateRange.convertDateStringToLocalDateTime(dateRange.getEndDateString()).toInstant(ZoneOffset.of("+08:00")));
+        return convertDateStringToLocalDateTime(this.startDateString + " 00:00").toInstant(ZoneOffset.of("+08:00"))
+                .isAfter(dateRange.convertDateStringToLocalDateTime(dateRange.getEndDateString() + " 00:00").toInstant(ZoneOffset.of("+08:00")));
     }
 
     private boolean isThisEndDateEarlyThanThatStartDate(DateRange dateRange) {
-        return convertDateStringToLocalDateTime(getEndDateString()).toInstant(ZoneOffset.of("+08:00"))
-                .isBefore(dateRange.convertDateStringToLocalDateTime(dateRange.getStartDateString()).toInstant(ZoneOffset.of("+08:00")));
+        return convertDateStringToLocalDateTime(getEndDateString() + " 00:00").toInstant(ZoneOffset.of("+08:00"))
+                .isBefore(dateRange.convertDateStringToLocalDateTime(dateRange.getStartDateString() + " 00:00").toInstant(ZoneOffset.of("+08:00")));
     }
 
-    private LocalDateTime convertDateStringToLocalDateTime(String dateString) {
+    private LocalDateTime convertDateStringToLocalDateTime(String dateStringInyyyyMMdd_HHmm) {
         DateTimeFormatter yyyyMMddHHmmFormatter = DateTimeFormatter.ofPattern("yyyy.MM.dd HH:mm");
-        return LocalDateTime.parse(dateString + " " + "00:00", yyyyMMddHHmmFormatter);
+        return LocalDateTime.parse(dateStringInyyyyMMdd_HHmm, yyyyMMddHHmmFormatter);
     }
 
     private boolean isTheSameEndDate(DateRange dateRange) {
@@ -91,5 +99,9 @@ public class DateRange {
 
     public String getStartDateString() {
         return startDateString;
+    }
+
+    public String getEndTimeString() {
+        return endTimeString;
     }
 }
