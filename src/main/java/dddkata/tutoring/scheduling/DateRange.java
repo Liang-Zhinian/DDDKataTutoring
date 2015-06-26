@@ -26,4 +26,11 @@ public class DateRange {
         String endDate = endTime.format(endTimeFormatter);
         return endDate;
     }
+
+    public boolean conflictsWith(DateRange dateRange) {
+        if (isTheSameDayOfWeek(dateRange.getDayOfWeek()) && isDateOverlapped(dateRange) && isTimeOverlapped(dateRange)) {
+            return true;
+        }
+        return false;
+    }
 }
