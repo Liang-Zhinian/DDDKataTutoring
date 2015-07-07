@@ -31,27 +31,23 @@ public class Schedule {
     public void addKid(Kid kid, String courseName) {
         if (this.kidAndEnrolledCourse.size() > 0
                 && this.kidAndEnrolledCourse.keySet().contains(kid.getName())) {
-            markTwoConflictedCourses(courseName, this.translator.getScheduleInScheduling());
+            markTwoConflictedCourses(courseName);
         }
         this.courses.get(courseName).addKid(kid);
         this.kidAndEnrolledCourse.put(kid.getName(), this.courses.get(courseName));
     }
 
-    private void markTwoConflictedCourses(String courseNameJustAdded, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
+    private void markTwoConflictedCourses(String courseNameJustAdded) {
         conflictedCourses = new HashMap<>();
         for(Map.Entry<String, Course> courseWithName : courses.entrySet()) {
             if ( !courseNameJustAdded.equals(courseWithName.getKey())
-                    && isOverlapped(courseWithName.getValue(), this.courses.get(courseNameJustAdded), scheduleInScheduling)) {
+                    && translator.areTwoCoursesOverlapped(courseWithName.getValue(), this.courses.get(courseNameJustAdded))) {
                 conflictedCourses.put(courseWithName.getKey(), courseWithName.getValue());
                 conflictedCourses.put(this.courses.get(courseNameJustAdded).getName()
                 , this.courses.get(courseNameJustAdded));
                 break;
             }
         }
-    }
-
-    private boolean isOverlapped(Course thisCourse, Course thatCourse, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
-        return scheduleInScheduling.isOverlapped(thisCourse.getName(), thatCourse.getName());
     }
 
     public void addTranslator(EnrolmentTranslator translator) {
