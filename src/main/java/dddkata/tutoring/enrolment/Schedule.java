@@ -21,7 +21,9 @@ public class Schedule {
     }
 
     public void addCourse(Course course) {
-        this.courses.put(course.getName(), course);
+        if (translator.doesCourseExistInScheduling()) {
+            this.courses.put(course.getName(), course);
+        }
     }
 
     public Map<String, Course> getConflictedCourses() {
