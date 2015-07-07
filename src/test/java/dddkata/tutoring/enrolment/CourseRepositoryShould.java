@@ -33,8 +33,8 @@ public class CourseRepositoryShould {
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
         Kid kidToBeEnrolled = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
-        dddkata.tutoring.enrolment.CourseRepository repository =
-                dddkata.tutoring.enrolment.CourseRepository.newInstance();
+        CourseRepository repository =
+                CourseRepository.newInstance();
         Course courseToBeCreated = Course.newInstance("美术预科");
         courseToBeCreated.addKid(kidToBeEnrolled);
 

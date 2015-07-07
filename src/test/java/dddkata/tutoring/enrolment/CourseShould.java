@@ -11,7 +11,7 @@ public class CourseShould {
     @Test
     public void tell_me_the_kids_enrolled() {
         // Arrange
-        dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
+        Course course = Course.newInstance("美术预科");
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
@@ -44,7 +44,7 @@ public class CourseShould {
     @Test
     public void tell_me_the_date_when_a_kids_fee_was_paid() {
         // Arrange
-        dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
+        Course course = Course.newInstance("美术预科");
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);

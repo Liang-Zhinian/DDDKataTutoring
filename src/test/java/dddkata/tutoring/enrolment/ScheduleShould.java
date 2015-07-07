@@ -39,12 +39,12 @@ public class ScheduleShould {
                 2000, "毕加索", teachers, dateRange);
         scheduleInScheduling.addCourse(courseHandwritingInScheduling);
 
-        dddkata.tutoring.enrolment.Schedule scheduleInEnrolment
-                = dddkata.tutoring.enrolment.Schedule.newInstance("小画家");
-        dddkata.tutoring.enrolment.Course coursePreparatoryInEnrolment
-                = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
-        dddkata.tutoring.enrolment.Course courseHandwritingInEnrolment
-                = dddkata.tutoring.enrolment.Course.newInstance("书法");
+        Schedule scheduleInEnrolment
+                = Schedule.newInstance("小画家");
+        Course coursePreparatoryInEnrolment
+                = Course.newInstance("美术预科");
+        Course courseHandwritingInEnrolment
+                = Course.newInstance("书法");
         scheduleInEnrolment.addCourse(coursePreparatoryInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
 
@@ -58,7 +58,7 @@ public class ScheduleShould {
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
         scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName(), scheduleInScheduling);
 
-        Map<String, dddkata.tutoring.enrolment.Course> conflictedCourses
+        Map<String, Course> conflictedCourses
                 = scheduleInEnrolment.getConflictedCourses();
 
         // Assert
