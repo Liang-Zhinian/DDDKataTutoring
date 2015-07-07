@@ -21,7 +21,7 @@ public class Schedule {
     }
 
     public void addCourse(Course course) {
-        if (translator.doesCourseExistInScheduling()) {
+        if (translator.doesCourseExistInScheduling(course)) {
             this.courses.put(course.getName(), course);
         }
     }
@@ -54,5 +54,9 @@ public class Schedule {
 
     public void addTranslator(EnrolmentTranslator translator) {
         this.translator = translator;
+    }
+
+    public int getQuantityOfAddedCourses() {
+        return this.courses.size();
     }
 }

@@ -23,4 +23,8 @@ public class EnrolmentTranslator {
     public boolean areTwoCoursesOverlapped(Course thisCourse, Course thatCourse) {
         return scheduleInScheduling.isOverlapped(thisCourse.getName(), thatCourse.getName());
     }
+
+    public boolean doesCourseExistInScheduling(Course course) {
+        return scheduleInScheduling.isCourseCreated(course.getName());
+    }
 }
