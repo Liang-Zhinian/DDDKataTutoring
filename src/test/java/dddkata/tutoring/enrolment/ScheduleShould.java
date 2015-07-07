@@ -40,6 +40,8 @@ public class ScheduleShould {
                 "5～8岁",
                 2000, "毕加索", teachers, dateRange);
         scheduleInScheduling.addCourse(courseHandwritingInScheduling);
+        EnrolmentTranslator translator = EnrolmentTranslator.newInstance();
+        translator.addScheduleInScheduling(scheduleInScheduling);
 
         Schedule scheduleInEnrolment
                 = Schedule.newInstance("小画家");
@@ -49,16 +51,17 @@ public class ScheduleShould {
                 = Course.newInstance("书法");
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
+        scheduleInEnrolment.addTranslator(translator);
 
         // Act
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        Fee tianSiSiFeeForPreparatory = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSiForPreparatory = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPreparatory);
-        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePictureBooksInEnrolment.getName(), scheduleInScheduling);
+        Fee tianSiSiFeeForPictureBooks = Fee.newInstance("2015.02.15", 3000);
+        Kid tianSiSiForPictureBooks = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPictureBooks);
+        scheduleInEnrolment.addKid(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
-        scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName(), scheduleInScheduling);
+        scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName());
 
         Map<String, Course> conflictedCourses
                 = scheduleInEnrolment.getConflictedCourses();
