@@ -20,7 +20,7 @@ public class EnrolmentTranslator {
         this.scheduleInScheduling = scheduleInScheduling;
     }
 
-    public Schedule getScheduleInScheduling() {
-        return this.scheduleInScheduling;
+    public boolean areTwoCoursesOverlapped(Course thisCourse, Course thatCourse) {
+        return scheduleInScheduling.isOverlapped(thisCourse.getName(), thatCourse.getName());
     }
 }
