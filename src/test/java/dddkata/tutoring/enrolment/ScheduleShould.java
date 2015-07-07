@@ -14,6 +14,8 @@ import static org.junit.Assert.assertEquals;
  * Created by twer on 6/25/15.
  */
 public class ScheduleShould {
+    // TODO: ensure_that_the_course_to_be_added_must_be_created_in_scheduling
+
     @Test
     public void let_me_know_if_a_kid_enrolled_a_course_which_have_a_time_conflict_with_another_course_enrolled_by_the_same_kid() {
         // Arrange
