@@ -36,13 +36,14 @@ public class Schedule {
         this.kidAndEnrolledCourse.put(kid.getName(), this.courses.get(courseName));
     }
 
-    private void markTwoConflictedCourses(String courseStringJustAdded, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
+    private void markTwoConflictedCourses(String courseNameJustAdded, dddkata.tutoring.scheduling.Schedule scheduleInScheduling) {
         conflictedCourses = new HashMap<>();
         for(Map.Entry<String, Course> courseWithName : courses.entrySet()) {
-            if ( !courseStringJustAdded.equals(courseWithName.getKey()) && isOverlapped(courseWithName.getValue(), this.courses.get(courseStringJustAdded), scheduleInScheduling)) {
+            if ( !courseNameJustAdded.equals(courseWithName.getKey())
+                    && isOverlapped(courseWithName.getValue(), this.courses.get(courseNameJustAdded), scheduleInScheduling)) {
                 conflictedCourses.put(courseWithName.getKey(), courseWithName.getValue());
-                conflictedCourses.put(this.courses.get(courseStringJustAdded).getName()
-                , this.courses.get(courseStringJustAdded));
+                conflictedCourses.put(this.courses.get(courseNameJustAdded).getName()
+                , this.courses.get(courseNameJustAdded));
                 break;
             }
         }
