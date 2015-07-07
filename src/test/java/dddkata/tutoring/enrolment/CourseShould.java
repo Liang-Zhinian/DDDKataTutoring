@@ -30,7 +30,7 @@ public class CourseShould {
     @Test
     public void tell_me_the_guardian_for_a_kid() {
         // Arrange
-        dddkata.tutoring.enrolment.Course course = dddkata.tutoring.enrolment.Course.newInstance("美术预科");
+        Course course = Course.newInstance("美术预科");
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);

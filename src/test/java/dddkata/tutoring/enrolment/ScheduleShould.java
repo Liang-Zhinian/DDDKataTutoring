@@ -15,19 +15,19 @@ import static org.junit.Assert.assertEquals;
  */
 public class ScheduleShould {
     @Test
-    public void let_me_know_if_a_kid_enrolled_a_course_which_have_a_time_conflict_with_another_course() {
+    public void let_me_know_if_a_kid_enrolled_a_course_which_have_a_time_conflict_with_another_course_enrolled_by_the_same_kid() {
         // Arrange
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        dddkata.tutoring.scheduling.Course coursePreparatoryInScheduling
-                = dddkata.tutoring.scheduling.Course.newInstance("美术预科",
-                "针对2-3岁儿童心理、生理特点以及敏感期的发展特点，从最基础的看、摸、闻、听、尝（视觉、触觉、嗅觉、听觉、味觉）感觉入手，培养孩子最基础的",
-                "2～3岁",
+        dddkata.tutoring.scheduling.Course coursePictureBooksInScheduling
+                = dddkata.tutoring.scheduling.Course.newInstance("儿童绘本",
+                "儿童用文字与图画去组织和表达思想的过程中，可以培养其对图画进行细致的经营，培养在生活中的观察力从而完整地创作出作品；在大量兼具艺术性与",
+                "5～8岁",
                 3000, "达芬奇", teachers, dateRange);
         dddkata.tutoring.scheduling.Schedule scheduleInScheduling
                 = dddkata.tutoring.scheduling.Schedule.newInstance("小画家");
-        scheduleInScheduling.addCourse(coursePreparatoryInScheduling);
+        scheduleInScheduling.addCourse(coursePictureBooksInScheduling);
 
         teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
@@ -41,18 +41,18 @@ public class ScheduleShould {
 
         Schedule scheduleInEnrolment
                 = Schedule.newInstance("小画家");
-        Course coursePreparatoryInEnrolment
-                = Course.newInstance("美术预科");
+        Course coursePictureBooksInEnrolment
+                = Course.newInstance("儿童绘本");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
-        scheduleInEnrolment.addCourse(coursePreparatoryInEnrolment);
+        scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
 
         // Act
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPreparatory = Fee.newInstance("2015.02.15", 3000);
         Kid tianSiSiForPreparatory = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPreparatory);
-        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePreparatoryInEnrolment.getName(), scheduleInScheduling);
+        scheduleInEnrolment.addKid(tianSiSiForPreparatory, coursePictureBooksInEnrolment.getName(), scheduleInScheduling);
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
         Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
@@ -62,7 +62,7 @@ public class ScheduleShould {
                 = scheduleInEnrolment.getConflictedCourses();
 
         // Assert
-        assertEquals(coursePreparatoryInEnrolment, conflictedCourses.get("美术预科"));
+        assertEquals(coursePictureBooksInEnrolment, conflictedCourses.get("儿童绘本"));
         assertEquals(courseHandwritingInEnrolment, conflictedCourses.get("书法"));
     }
 }
