@@ -46,4 +46,8 @@ public class Schedule {
         Course thatCourse = this.courses.get(thatCourseName);
         return thisCourse.isOverlappedWith(thatCourse);
     }
+
+    public boolean isCourseCreated(String courseName) {
+        return this.courses.keySet().contains(courseName);
+    }
 }

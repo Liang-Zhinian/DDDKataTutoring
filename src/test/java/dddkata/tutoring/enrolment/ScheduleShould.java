@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 /**
  * Created by twer on 6/25/15.
@@ -50,9 +49,9 @@ public class ScheduleShould {
                 = Course.newInstance("儿童油画");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
+        scheduleInEnrolment.addTranslator(translator);
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
-        scheduleInEnrolment.addTranslator(translator);
 
         // Assert
         assertEquals(1, scheduleInEnrolment.getQuantityOfAddedCourses());
@@ -91,9 +90,9 @@ public class ScheduleShould {
                 = Course.newInstance("儿童绘本");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
+        scheduleInEnrolment.addTranslator(translator);
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
-        scheduleInEnrolment.addTranslator(translator);
 
         // Act
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
