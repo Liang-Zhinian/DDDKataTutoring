@@ -46,4 +46,8 @@ public class Course {
     public String getName() {
         return name;
     }
+
+    public Kid getKid(String name) {
+        return this.kids.get(name);
+    }
 }

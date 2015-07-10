@@ -11,8 +11,20 @@ public class CourseShould {
 
     @Test
     public void help_miss_hehe_to_create_an_enrolment_entry_for_a_course() {
+        // Arrange
+        Course courseToBeCreated = Course.newInstance("美术预科");
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        courseToBeCreated.addKid(tianSiSi);
+        CourseRepository repository = CourseRepository.newInstance();
+
+        // Act
+        repository.save(courseToBeCreated.getName(), courseToBeCreated);
+
         // Assert
-        assertEquals(courseToBeCreated, courseRetrieved);
+        Course courseRetrieved = repository.retrieve("美术预科");
+        assertEquals(courseToBeCreated.getKid("田斯斯"), courseRetrieved.getKid("田斯斯"));
     }
 
     // TODO: help_miss_hehe_to_browse_all_enrolment_entries_for_a_course

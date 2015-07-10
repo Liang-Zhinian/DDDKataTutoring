@@ -25,7 +25,7 @@ public class CourseShould {
         CourseRepository repository = CourseRepository.newInstance();
 
         // Act
-        repository.save("美术预科", courseToBeCreated);
+        repository.save(courseToBeCreated.getName(), courseToBeCreated);
 
         // Assert
         Course courseRetrieved = repository.retrieve("美术预科");
