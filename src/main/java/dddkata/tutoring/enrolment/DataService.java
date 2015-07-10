@@ -40,4 +40,8 @@ public class DataService {
     public void removeAKidFromACourse(String courseName, String kidName) {
         this.courses.get(courseName).removeEnrolment(kidName);
     }
+
+    public Course getCourse(String courseName) {
+        return this.courses.get(courseName);
+    }
 }
