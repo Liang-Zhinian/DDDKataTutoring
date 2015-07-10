@@ -15,7 +15,7 @@ public class CourseShould {
         Course courseToBeCreated = Course.newInstance("美术预科");
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         courseToBeCreated.addKid(tianSiSi);
         CourseRepository repository = CourseRepository.newInstance();
 
@@ -27,7 +27,13 @@ public class CourseShould {
         assertEquals(courseToBeCreated.getKid("田斯斯"), courseRetrieved.getKid("田斯斯"));
     }
 
-    // TODO: help_miss_hehe_to_browse_all_enrolment_entries_for_a_course
+    @Test
+    public void help_miss_hehe_to_browse_all_enrolment_entries_for_a_course() {
+        // Assert
+        List<Enrolment> enrolmentRetrieved;
+        assertEquals(2, enrolmentRetrieved.size());
+    }
+    
     // TODO: help_miss_hehe_to_update_an_enrolment_entry_for_a_course
     // TODO: help_miss_hehe_to_delete_an_enrolment_entry_from_a_course
     // TODO: help_miss_hehe_to_list_the_information_of_all_kids_enrolled_in_a_course
@@ -41,12 +47,12 @@ public class CourseShould {
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
         Guardian maYiDaDad = Guardian.newInstance("Dad", "13921223211");
         Fee maYiDaFee = Fee.newInstance("2015.02.16", 3000);
-        Kid maYiDa = Kid.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
+        Enrolment maYiDa = Enrolment.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
         course.addKid(maYiDa);
 
         // Act & Assert
@@ -60,7 +66,7 @@ public class CourseShould {
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
         // Act & Assert
@@ -74,7 +80,7 @@ public class CourseShould {
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSi = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         course.addKid(tianSiSi);
 
         // Act & Assert

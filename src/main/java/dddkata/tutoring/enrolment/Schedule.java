@@ -30,13 +30,13 @@ public class Schedule {
         return conflictedCourses;
     }
 
-    public void addKid(Kid kid, String courseName) {
+    public void addKid(Enrolment enrolment, String courseName) {
         if (this.kidAndEnrolledCourse.size() > 0
-                && this.kidAndEnrolledCourse.keySet().contains(kid.getName())) {
+                && this.kidAndEnrolledCourse.keySet().contains(enrolment.getKidName())) {
             markTwoConflictedCourses(courseName);
         }
-        this.courses.get(courseName).addKid(kid);
-        this.kidAndEnrolledCourse.put(kid.getName(), this.courses.get(courseName));
+        this.courses.get(courseName).addKid(enrolment);
+        this.kidAndEnrolledCourse.put(enrolment.getKidName(), this.courses.get(courseName));
     }
 
     private void markTwoConflictedCourses(String courseNameJustAdded) {

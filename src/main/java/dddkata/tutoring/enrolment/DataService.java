@@ -23,9 +23,9 @@ public class DataService {
         this.courses.put(courseName, enrolmentCourse);
     }
 
-    public Kid retrieveAKidForACourse(String courseName, String kidName) {
-        Kid kid = this.courses.get(courseName).getKids().get(kidName);
-        return kid;
+    public Enrolment retrieveAKidForACourse(String courseName, String kidName) {
+        Enrolment enrolment = this.courses.get(courseName).getKids().get(kidName);
+        return enrolment;
     }
 
     public Course retrieveCourse(String courseName) {

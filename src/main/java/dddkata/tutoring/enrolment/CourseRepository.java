@@ -19,9 +19,9 @@ public class CourseRepository {
         this.dataService.enrolAKidForACourse(courseName, enrolmentCourse);
     }
 
-    public Kid retrieveAKidForACourse(String courseName, String kidName) {
-        Kid kid = this.dataService.retrieveAKidForACourse(courseName, kidName);
-        return kid;
+    public Enrolment retrieveAKidForACourse(String courseName, String kidName) {
+        Enrolment enrolment = this.dataService.retrieveAKidForACourse(courseName, kidName);
+        return enrolment;
     }
 
     public Course retrieve(String courseName) {

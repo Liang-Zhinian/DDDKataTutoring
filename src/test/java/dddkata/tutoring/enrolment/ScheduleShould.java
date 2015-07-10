@@ -97,11 +97,11 @@ public class ScheduleShould {
         // Act
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPictureBooks = Fee.newInstance("2015.02.15", 3000);
-        Kid tianSiSiForPictureBooks = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPictureBooks);
+        Enrolment tianSiSiForPictureBooks = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPictureBooks);
         scheduleInEnrolment.addKid(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
-        Kid tianSiSiForHandwriting = Kid.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
+        Enrolment tianSiSiForHandwriting = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
         scheduleInEnrolment.addKid(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName());
 
         Map<String, Course> conflictedCourses

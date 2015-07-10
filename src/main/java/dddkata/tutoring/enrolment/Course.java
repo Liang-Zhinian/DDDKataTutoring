@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 public class Course {
     private final String name;
-    private HashMap<String, Kid> kids = new HashMap<>();
+    private HashMap<String, Enrolment> kids = new HashMap<>();
 
     private Course(String name) {
         this.name = name;
@@ -23,23 +23,23 @@ public class Course {
         return new Course(name);
     }
 
-    public void addKid(Kid kid) {
-        this.kids.put(kid.getName(), kid);
+    public void addKid(Enrolment enrolment) {
+        this.kids.put(enrolment.getKidName(), enrolment);
     }
 
     public String getGuardianFor(String kidName) {
-        Kid kid = kids.get(kidName);
-        String guardian = kid.getGuardian().toString();
+        Enrolment enrolment = kids.get(kidName);
+        String guardian = enrolment.getGuardian().toString();
         return guardian;
     }
 
     public String getFeeFor(String kidName) {
-        Kid kid = kids.get(kidName);
-        String fee = kid.getFee().toString();
+        Enrolment enrolment = kids.get(kidName);
+        String fee = enrolment.getFee().toString();
         return fee;
     }
 
-    public HashMap<String, Kid> getKids() {
+    public HashMap<String, Enrolment> getKids() {
         return kids;
     }
 
@@ -47,7 +47,7 @@ public class Course {
         return name;
     }
 
-    public Kid getKid(String name) {
+    public Enrolment getKid(String name) {
         return this.kids.get(name);
     }
 }
