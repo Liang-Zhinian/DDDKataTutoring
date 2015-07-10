@@ -24,7 +24,7 @@ public class CourseShould {
         Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
 
         // Act
-        repository.enrolAKidForACourse(course.getName(), tianSiSi);
+        repository.enrolAKidForACourse("美术预科", tianSiSi);
 
         // Assert
         Enrolment enrolmentEnrolled = repository.retrieveAKidForACourse("美术预科", "田斯斯");
@@ -78,7 +78,27 @@ public class CourseShould {
         assertEquals(tianSiSiUpdated, enrolmentEnrolled);
     }
 
-    // TODO: help_miss_hehe_to_delete_an_enrolment_entry_from_a_course
+    @Test
+    public void help_miss_hehe_to_delete_an_enrolment_entry_from_a_course() {
+        // Arrange
+        CourseRepository repository =
+                CourseRepository.newInstance();
+        Course course = Course.newInstance("美术预科");
+        repository.addCourse(course.getName(), course);
+
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        repository.enrolAKidForACourse("美术预科", tianSiSi);
+
+        // Act
+        repository.removeAKidFromACourse("美术预科", "田斯斯");
+
+        // Assert
+        Enrolment enrolmentRetrieved = repository.retrieveAKidForACourse("美术预科", "田斯斯");
+        assertEquals(null, enrolmentRetrieved);
+    }
+
     // TODO: help_miss_hehe_to_list_the_information_of_all_kids_enrolled_in_a_course
     // TODO: help_miss_hehe_to_get_contact_information_of_a_kid_in_a_course
     // TODO: help_miss_hehe_to_get_payment_information_of_a_kid_in_a_course
