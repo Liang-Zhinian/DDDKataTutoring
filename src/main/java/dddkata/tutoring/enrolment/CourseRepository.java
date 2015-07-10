@@ -1,13 +1,11 @@
 package dddkata.tutoring.enrolment;
 
-import dddkata.tutoring.sharedService.DataService;
-
 /**
  * Created by twer on 6/25/15.
  */
 public class CourseRepository {
 
-    private DataService dataService = DataService.getInstance();
+    private dddkata.tutoring.enrolment.DataService dataService = dddkata.tutoring.enrolment.DataService.getInstance();
 
     private CourseRepository() {
 
