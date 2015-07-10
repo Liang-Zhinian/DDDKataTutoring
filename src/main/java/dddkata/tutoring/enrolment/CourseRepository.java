@@ -23,12 +23,4 @@ public class CourseRepository {
         Enrolment enrolment = this.dataService.retrieveAKidForACourse(courseName, kidName);
         return enrolment;
     }
-
-    public Course retrieve(String courseName) {
-        return this.dataService.retrieveCourse(courseName);
-    }
-
-    public void save(String courseName, Course course) {
-        this.dataService.save(courseName, course);
-    }
 }

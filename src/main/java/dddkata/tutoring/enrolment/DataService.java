@@ -27,12 +27,4 @@ public class DataService {
         Enrolment enrolment = this.courses.get(courseName).getKids().get(kidName);
         return enrolment;
     }
-
-    public Course retrieveCourse(String courseName) {
-        return this.courses.get(courseName);
-    }
-
-    public void save(String courseName, Course course) {
-        this.courses.put(courseName, course);
-    }
 }

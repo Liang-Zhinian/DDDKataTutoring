@@ -30,9 +30,10 @@ public class CourseShould {
 
     @Test
     public void help_miss_hehe_to_browse_all_enrolment_entries_for_a_course() {
-        // Assert
-//        CourseRepository repository;
+//        CourseRepository repository = CourseRepository.newInstance();
 //        List<Enrolment> enrolmentRetrieved = repository.getAllEnrolmentFor("美术预科");
+//
+//        // Assert
 //        assertEquals(2, enrolmentRetrieved.size());
     }
     
