@@ -2,8 +2,6 @@ package dddkata.tutoring.enrolment;
 
 import org.junit.Test;
 
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -48,11 +46,8 @@ public class CourseShould {
         Enrolment maYiDa = Enrolment.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
         repository.enrolAKidForACourse("美术预科", maYiDa);
 
-        // Act
-        List<Enrolment> enrolmentRetrieved = repository.getAllEnrolmentForCourse("美术预科");
-
-        // Assert
-        assertEquals(2, enrolmentRetrieved.size());
+        // Act & Assert
+        assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKidsWithGenderAndAge());
     }
 
     @Test
@@ -99,28 +94,8 @@ public class CourseShould {
         assertEquals(null, enrolmentRetrieved);
     }
 
-    // TODO: help_miss_hehe_to_list_the_information_of_all_kids_enrolled_in_a_course
     // TODO: help_miss_hehe_to_get_contact_information_of_a_kid_in_a_course
     // TODO: help_miss_hehe_to_get_payment_information_of_a_kid_in_a_course
-
-    @Test
-    public void tell_me_the_kids_enrolled() {
-        // Arrange
-        Course course = Course.newInstance("美术预科");
-
-        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
-        course.addKid(tianSiSi);
-
-        Guardian maYiDaDad = Guardian.newInstance("Dad", "13921223211");
-        Fee maYiDaFee = Fee.newInstance("2015.02.16", 3000);
-        Enrolment maYiDa = Enrolment.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
-        course.addKid(maYiDa);
-
-        // Act & Assert
-        assertEquals("田斯斯_女_3岁 马一达_男_3岁 ", course.getKidsWithGenderAndAge());
-    }
 
     @Test
     public void tell_me_the_guardian_for_a_kid() {
