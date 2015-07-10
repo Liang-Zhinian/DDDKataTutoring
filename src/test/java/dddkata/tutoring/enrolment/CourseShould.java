@@ -125,6 +125,6 @@ public class CourseShould {
         repository.enrolAKidForACourse("美术预科", tianSiSi);
 
         // Act & Assert
-        assertEquals("2015.02.15_3000", course.getFeeFor("田斯斯"));
+        assertEquals("2015.02.15_3000", repository.getCourse("美术预科").getFeeFor("田斯斯"));
     }
 }
