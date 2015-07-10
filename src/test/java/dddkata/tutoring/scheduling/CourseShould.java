@@ -11,6 +11,13 @@ import static org.junit.Assert.assertEquals;
  * Created by twer on 6/23/15.
  */
 public class CourseShould {
+
+    // TODO: help_miss_hehe_to_create_a_course
+    // TODO: help_miss_hehe_to_browse_all_courses_created
+    // TODO: help_miss_hehe_to_update_a_course
+    // TODO: help_miss_hehe_to_delete_a_course
+    // TODO: help_miss_hehe_to_search_a_course
+
     @Test
     public void tell_me_the_end_date() {
         // Arrange
