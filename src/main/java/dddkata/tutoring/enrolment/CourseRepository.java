@@ -33,4 +33,8 @@ public class CourseRepository {
     public List<Enrolment> getAllEnrolmentForCourse(String courseName) {
         return this.dataService.getAllEnrolmentForCourse(courseName);
     }
+
+    public void removeAKidFromACourse(String courseName, String kidName) {
+        this.dataService.removeAKidFromACourse(courseName, kidName);
+    }
 }

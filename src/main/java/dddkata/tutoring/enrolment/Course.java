@@ -56,4 +56,8 @@ public class Course {
     public HashMap<String, Enrolment> getEnrolmentsWithKidNames() {
         return this.enrolments;
     }
+
+    public void removeEnrolment(String kidName) {
+        this.enrolments.remove(kidName);
+    }
 }

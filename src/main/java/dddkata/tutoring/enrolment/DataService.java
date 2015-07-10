@@ -36,4 +36,8 @@ public class DataService {
     public List<Enrolment> getAllEnrolmentForCourse(String courseName) {
         return this.courses.get(courseName).getEnrolments();
     }
+
+    public void removeAKidFromACourse(String courseName, String kidName) {
+        this.courses.get(courseName).removeEnrolment(kidName);
+    }
 }
