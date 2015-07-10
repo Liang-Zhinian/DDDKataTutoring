@@ -1,13 +1,15 @@
 package dddkata.tutoring.enrolment;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by twer on 6/24/15.
  */
 public class Course {
     private final String name;
-    private HashMap<String, Enrolment> kids = new HashMap<>();
+    private HashMap<String, Enrolment> enrolments = new HashMap<>();
 
     private Course(String name) {
         this.name = name;
@@ -15,7 +17,7 @@ public class Course {
 
     public String getKidsWithGenderAndAge() {
         StringBuffer kidsWithGenderAndAge = new StringBuffer();
-        this.kids.values().forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
+        this.enrolments.values().forEach(kid -> kidsWithGenderAndAge.append(kid.toString()));
         return kidsWithGenderAndAge.toString();
     }
 
@@ -24,23 +26,23 @@ public class Course {
     }
 
     public void addKid(Enrolment enrolment) {
-        this.kids.put(enrolment.getKidName(), enrolment);
+        this.enrolments.put(enrolment.getKidName(), enrolment);
     }
 
     public String getGuardianFor(String kidName) {
-        Enrolment enrolment = kids.get(kidName);
+        Enrolment enrolment = enrolments.get(kidName);
         String guardian = enrolment.getGuardian().toString();
         return guardian;
     }
 
     public String getFeeFor(String kidName) {
-        Enrolment enrolment = kids.get(kidName);
+        Enrolment enrolment = enrolments.get(kidName);
         String fee = enrolment.getFee().toString();
         return fee;
     }
 
-    public HashMap<String, Enrolment> getKids() {
-        return kids;
+    public List<Enrolment> getEnrolments() {
+        return new ArrayList<>(this.enrolments.values());
     }
 
     public String getName() {
@@ -48,6 +50,10 @@ public class Course {
     }
 
     public Enrolment getKid(String name) {
-        return this.kids.get(name);
+        return this.enrolments.get(name);
+    }
+
+    public HashMap<String, Enrolment> getEnrolmentsWithKidNames() {
+        return this.enrolments;
     }
 }

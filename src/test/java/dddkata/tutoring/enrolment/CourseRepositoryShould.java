@@ -11,23 +11,23 @@ public class CourseRepositoryShould {
     @Test
     public void persist_existing_course() {
         // Arrange
-        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Enrolment enrolmentToBeEnrolled = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         CourseRepository repository =
                 CourseRepository.newInstance();
-        Course courseToBeCreated = Course.newInstance("美术预科");
-        courseToBeCreated.addKid(enrolmentToBeEnrolled);
+        Course course = Course.newInstance("美术预科");
+        repository.addCourse(course.getName(), course);
+
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
 
         // Act
-        repository.enrolAKidForACourse("美术预科", courseToBeCreated);
-        Course courseUpdated = Course.newInstance("美术预科");
-        Enrolment enrolmentUpdated = Enrolment.newInstance("田斯斯", "女", 2, tianSiSiMom, tianSiSiFee);;
-        courseUpdated.addKid(enrolmentUpdated);
-        repository.enrolAKidForACourse("美术预科", courseUpdated);
+        repository.enrolAKidForACourse("美术预科", tianSiSi);
+
+        Enrolment tianSiSiUpdated = Enrolment.newInstance("田斯斯", "女", 2, tianSiSiMom, tianSiSiFee);;
+        repository.enrolAKidForACourse("美术预科", tianSiSiUpdated);
 
         // Assert
         Enrolment enrolmentEnrolled = repository.retrieveAKidForACourse("美术预科", "田斯斯");
-        assertEquals(enrolmentUpdated, enrolmentEnrolled);
+        assertEquals(tianSiSiUpdated, enrolmentEnrolled);
     }
 }

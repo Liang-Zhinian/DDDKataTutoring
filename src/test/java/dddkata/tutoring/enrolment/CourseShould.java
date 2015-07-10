@@ -14,20 +14,21 @@ public class CourseShould {
     @Test
     public void help_miss_hehe_to_create_an_enrolment_entry_for_a_course() {
         // Arrange
-        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
-        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
-        Enrolment enrolmentToBeEnrolled = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
         CourseRepository repository =
                 CourseRepository.newInstance();
         Course course = Course.newInstance("美术预科");
-        course.addKid(enrolmentToBeEnrolled);
+        repository.addCourse(course.getName(), course);
+
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
 
         // Act
-        repository.enrolAKidForACourse(course.getName(), course);
+        repository.enrolAKidForACourse(course.getName(), tianSiSi);
 
         // Assert
         Enrolment enrolmentEnrolled = repository.retrieveAKidForACourse("美术预科", "田斯斯");
-        assertEquals(enrolmentToBeEnrolled, enrolmentEnrolled);
+        assertEquals(tianSiSi, enrolmentEnrolled);
     }
 
     @Test

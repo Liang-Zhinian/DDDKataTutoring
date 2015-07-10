@@ -1,6 +1,7 @@
 package dddkata.tutoring.enrolment;
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by twer on 7/10/15.
@@ -19,16 +20,20 @@ public class DataService {
         return singleton;
     }
 
-    public void enrolAKidForACourse(String courseName, Course enrolmentCourse) {
-        this.courses.put(courseName, enrolmentCourse);
+    public void enrolAKidForACourse(String courseName, Enrolment enrolmentCourse) {
+        this.courses.get(courseName).addKid(enrolmentCourse);
     }
 
     public Enrolment retrieveAKidForACourse(String courseName, String kidName) {
-        Enrolment enrolment = this.courses.get(courseName).getKids().get(kidName);
+        Enrolment enrolment = this.courses.get(courseName).getEnrolmentsWithKidNames().get(kidName);
         return enrolment;
     }
 
-    public void addCourse(Course course) {
+    public void addCourse(String name, Course course) {
+        this.courses.put(name, course);
+    }
 
+    public List<Enrolment> getAllEnrolmentForCourse(String courseName) {
+        return this.courses.get(courseName).getEnrolments();
     }
 }
