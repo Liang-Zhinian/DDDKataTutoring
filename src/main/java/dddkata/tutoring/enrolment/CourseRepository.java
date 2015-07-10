@@ -5,7 +5,7 @@ package dddkata.tutoring.enrolment;
  */
 public class CourseRepository {
 
-    private dddkata.tutoring.enrolment.DataService dataService = dddkata.tutoring.enrolment.DataService.getInstance();
+    private DataService dataService = DataService.getInstance();
 
     private CourseRepository() {
 
