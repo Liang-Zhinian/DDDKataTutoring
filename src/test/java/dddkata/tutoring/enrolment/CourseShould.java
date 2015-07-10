@@ -108,19 +108,21 @@ public class CourseShould {
         repository.enrolAKidForACourse("美术预科", tianSiSi);
 
         // Act & Assert
-        assertEquals("Mom_13921223456", course.getGuardianFor("田斯斯"));
+        assertEquals("Mom_13921223456", repository.getCourse("美术预科").getGuardianFor("田斯斯"));
     }
 
-    // TODO: help_miss_hehe_to_get_payment_information_of_a_kid_in_a_course
     @Test
-    public void tell_me_the_date_when_a_kids_fee_was_paid() {
+    public void help_miss_hehe_to_get_payment_information_of_a_kid_in_a_course() {
         // Arrange
+        CourseRepository repository =
+                CourseRepository.newInstance();
         Course course = Course.newInstance("美术预科");
+        repository.addCourse(course.getName(), course);
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
         Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
-        course.addKid(tianSiSi);
+        repository.enrolAKidForACourse("美术预科", tianSiSi);
 
         // Act & Assert
         assertEquals("2015.02.15_3000", course.getFeeFor("田斯斯"));
