@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class CourseRepository {
 
-    private dddkata.tutoring.scheduling.DataService dataService = dddkata.tutoring.scheduling.DataService.getInstance();
+    private DataService dataService = DataService.getInstance();
 
     private CourseRepository() {
 
