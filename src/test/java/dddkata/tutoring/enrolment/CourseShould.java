@@ -35,7 +35,7 @@ public class CourseShould {
         // Arrange
         CourseRepository repository = CourseRepository.newInstance();
         Course course = Course.newInstance("美术预科");
-        repository.addCourse(course);
+        repository.addCourse(course.getName(), course);
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);

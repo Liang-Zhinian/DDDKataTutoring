@@ -27,4 +27,8 @@ public class DataService {
         Enrolment enrolment = this.courses.get(courseName).getKids().get(kidName);
         return enrolment;
     }
+
+    public void addCourse(Course course) {
+
+    }
 }

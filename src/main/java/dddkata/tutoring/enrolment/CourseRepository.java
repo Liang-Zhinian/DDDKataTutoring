@@ -23,4 +23,8 @@ public class CourseRepository {
         Enrolment enrolment = this.dataService.retrieveAKidForACourse(courseName, kidName);
         return enrolment;
     }
+
+    public void addCourse(Course course) {
+        this.dataService.addCourse(course);
+    }
 }
