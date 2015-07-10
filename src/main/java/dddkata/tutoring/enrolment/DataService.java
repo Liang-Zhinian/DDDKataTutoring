@@ -1,7 +1,6 @@
 package dddkata.tutoring.enrolment;
 
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * Created by twer on 7/10/15.
@@ -31,10 +30,6 @@ public class DataService {
 
     public void addCourse(String name, Course course) {
         this.courses.put(name, course);
-    }
-
-    public List<Enrolment> getAllEnrolmentForCourse(String courseName) {
-        return this.courses.get(courseName).getEnrolments();
     }
 
     public void removeAKidFromACourse(String courseName, String kidName) {

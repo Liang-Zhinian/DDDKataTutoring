@@ -1,7 +1,5 @@
 package dddkata.tutoring.enrolment;
 
-import java.util.List;
-
 /**
  * Created by twer on 6/25/15.
  */
@@ -28,10 +26,6 @@ public class CourseRepository {
 
     public void addCourse(String name, Course course) {
         this.dataService.addCourse(name, course);
-    }
-
-    public List<Enrolment> getAllEnrolmentForCourse(String courseName) {
-        return this.dataService.getAllEnrolmentForCourse(courseName);
     }
 
     public void removeAKidFromACourse(String courseName, String kidName) {

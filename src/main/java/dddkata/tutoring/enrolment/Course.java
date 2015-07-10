@@ -49,10 +49,6 @@ public class Course {
         return name;
     }
 
-    public Enrolment getKid(String name) {
-        return this.enrolments.get(name);
-    }
-
     public HashMap<String, Enrolment> getEnrolmentsWithKidNames() {
         return this.enrolments;
     }
