@@ -10,6 +10,8 @@ import java.util.List;
  * Created by twer on 6/25/15.
  */
 public class DataService {
+    // TODO: Split the DataService into SchedulingDataService and EnrolmentDataService
+
     private static DataService singleton;
     private HashMap<String, dddkata.tutoring.scheduling.Course> schedulingCourses = new HashMap<>();
     private HashMap<String, dddkata.tutoring.enrolment.Course> enrolmentCourses = new HashMap<>();
