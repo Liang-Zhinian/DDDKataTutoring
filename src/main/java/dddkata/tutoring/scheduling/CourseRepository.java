@@ -1,8 +1,5 @@
 package dddkata.tutoring.scheduling;
 
-
-import dddkata.tutoring.sharedService.DataService;
-
 import java.util.List;
 
 /**
@@ -10,7 +7,7 @@ import java.util.List;
  */
 public class CourseRepository {
 
-    private DataService dataService = DataService.getInstance();
+    private dddkata.tutoring.scheduling.DataService dataService = dddkata.tutoring.scheduling.DataService.getInstance();
 
     private CourseRepository() {
 
