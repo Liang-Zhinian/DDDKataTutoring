@@ -28,4 +28,8 @@ public class CourseRepository {
     public List<Course> getAllCourses() {
         return dataService.getAllSchedulingCourses();
     }
+
+    public void delete(String courseName) {
+        this.dataService.delete(courseName);
+    }
 }

@@ -32,4 +32,8 @@ public class DataService {
     public List<Course> getAllSchedulingCourses() {
         return new ArrayList<>(this.courses.values());
     }
+
+    public void delete(String courseName) {
+        this.courses.remove(courseName);
+    }
 }
