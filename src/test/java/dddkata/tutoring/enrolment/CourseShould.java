@@ -2,6 +2,8 @@ package dddkata.tutoring.enrolment;
 
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -30,11 +32,26 @@ public class CourseShould {
 
     @Test
     public void help_miss_hehe_to_browse_all_enrolment_entries_for_a_course() {
-//        CourseRepository repository = CourseRepository.newInstance();
-//        List<Enrolment> enrolmentRetrieved = repository.getAllEnrolmentFor("美术预科");
-//
-//        // Assert
-//        assertEquals(2, enrolmentRetrieved.size());
+        // Arrange
+        CourseRepository repository = CourseRepository.newInstance();
+        Course course = Course.newInstance("美术预科");
+        repository.addCourse(course);
+
+        Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
+        Fee tianSiSiFee = Fee.newInstance("2015.02.15", 3000);
+        Enrolment tianSiSi = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFee);
+        repository.enrolAKidForACourse("美术预科", tianSiSi);
+
+        Guardian maYiDaDad = Guardian.newInstance("Dad", "13921223211");
+        Fee maYiDaFee = Fee.newInstance("2015.02.16", 3000);
+        Enrolment maYiDa = Enrolment.newInstance("马一达", "男", 3, maYiDaDad, maYiDaFee);
+        repository.enrolAKidForACourse("美术预科", maYiDa);
+
+        // Act
+        List<Enrolment> enrolmentRetrieved = repository.getAllEnrolmentForCourse("美术预科");
+
+        // Assert
+        assertEquals(2, enrolmentRetrieved.size());
     }
     
     // TODO: help_miss_hehe_to_update_an_enrolment_entry_for_a_course
