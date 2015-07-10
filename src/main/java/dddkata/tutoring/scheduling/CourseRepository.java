@@ -3,6 +3,8 @@ package dddkata.tutoring.scheduling;
 
 import dddkata.tutoring.sharedService.DataService;
 
+import java.util.List;
+
 /**
  * Created by twer on 6/24/15.
  */
@@ -24,5 +26,9 @@ public class CourseRepository {
 
     public static CourseRepository newInstance() {
         return new CourseRepository();
+    }
+
+    public List<Course> getAllCourses() {
+        return dataService.getAllSchedulingCourses();
     }
 }
