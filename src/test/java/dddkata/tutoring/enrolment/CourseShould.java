@@ -9,7 +9,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class CourseShould {
 
-    // TODO: help_miss_hehe_to_create_an_enrolment_entry_for_a_course
+    @Test
+    public void help_miss_hehe_to_create_an_enrolment_entry_for_a_course() {
+        // Assert
+        assertEquals(courseToBeCreated, courseRetrieved);
+    }
+
     // TODO: help_miss_hehe_to_browse_all_enrolment_entries_for_a_course
     // TODO: help_miss_hehe_to_update_an_enrolment_entry_for_a_course
     // TODO: help_miss_hehe_to_delete_an_enrolment_entry_from_a_course
