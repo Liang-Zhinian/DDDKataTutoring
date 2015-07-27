@@ -1,4 +1,4 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
 
 /**
  * Created by twer on 6/24/15.

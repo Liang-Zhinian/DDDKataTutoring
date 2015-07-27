@@ -1,4 +1,6 @@
-package dddkata.tutoring.enrolling;
+package dddkata.tutoring.enrolling.domain;
+
+import dddkata.tutoring.enrolling.infrastructure.DataService;
 
 /**
  * Created by twer on 7/27/15.

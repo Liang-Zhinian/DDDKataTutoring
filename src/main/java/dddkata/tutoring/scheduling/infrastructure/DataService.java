@@ -1,4 +1,7 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.infrastructure;
+
+import dddkata.tutoring.scheduling.domain.Course;
+import dddkata.tutoring.scheduling.domain.Schedule;
 
 import java.util.ArrayList;
 import java.util.HashMap;

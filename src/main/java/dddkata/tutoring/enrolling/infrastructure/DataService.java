@@ -1,4 +1,8 @@
-package dddkata.tutoring.enrolling;
+package dddkata.tutoring.enrolling.infrastructure;
+
+import dddkata.tutoring.enrolling.domain.Course;
+import dddkata.tutoring.enrolling.domain.Enrolment;
+import dddkata.tutoring.enrolling.domain.Enrolments;
 
 import java.util.HashMap;
 

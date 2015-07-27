@@ -1,5 +1,9 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
 
+import dddkata.tutoring.scheduling.domain.Course;
+import dddkata.tutoring.scheduling.domain.DateRange;
+import dddkata.tutoring.scheduling.domain.Schedule;
+import dddkata.tutoring.scheduling.domain.Teacher;
 import org.junit.Test;
 
 import java.util.ArrayList;

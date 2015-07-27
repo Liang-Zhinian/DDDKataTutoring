@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolling;
+package dddkata.tutoring.enrolling.domain;
 
 import java.util.ArrayList;
 import java.util.HashMap;

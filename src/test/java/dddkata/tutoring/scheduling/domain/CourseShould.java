@@ -1,4 +1,4 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
 
 import org.junit.Test;
 

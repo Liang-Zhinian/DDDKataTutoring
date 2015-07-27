@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CreateACourseStepDef.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/CourseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/CourseRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/DataService.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/infrastructure/DataService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrollingTranslator.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/EnrollingTranslator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolment.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrolmentsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/EnrolmentsRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Fee.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Fee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Guardian.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Guardian.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/CourseRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DataService.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/infrastructure/DataService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/DateRange.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Schedule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/ScheduleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/ScheduleRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/SchedulingTranslator.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/SchedulingTranslator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Teacher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/browse_courses.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/browse_courses.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/create_a_course.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/create_a_course.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/delete_a_course.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/update_a_course.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/update_a_course.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/CourseShould.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/ScheduleShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/ScheduleShould.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/CourseShould.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/DeleteACourseStepDef.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/ScheduleShould.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,49 +95,60 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="DeleteACourseStepDef.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/DeleteACourseStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#670#679#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#684#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_a_course.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature">
+      <file leaf-file-name="delete_a_course.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/delete_a_course.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13297872">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_a_course.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/create_a_course.feature">
+      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_a_course.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/create_a_course.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62765956">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="browse_courses.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/browse_courses.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/browse_courses.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="update_a_course.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/update_a_course.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/update_a_course.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="31" column="116" selection-start-line="31" selection-start-column="116" selection-end-line="31" selection-end-column="116" />
@@ -123,25 +157,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enrolments.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java">
+      <file leaf-file-name="CourseRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/CourseRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/infrastructure/DataService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Course.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Course.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -150,30 +191,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
+      <file leaf-file-name="CourseShould.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/CourseShould.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="127" selection-start-line="57" selection-start-column="127" selection-end-line="57" selection-end-column="127" />
-              <folding>
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
-                <element signature="e#2347#2348#0" expanded="true" />
-                <element signature="e#2382#2383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchedulingTranslator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/SchedulingTranslator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,8 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/CourseShould.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/crudmanagement/Teacher.java" />
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
@@ -240,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/SchedulingTranslator.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/EnrolmentsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrolmentsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/DataService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
         <option value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/CreateACourseStepDef.java" />
@@ -250,6 +271,9 @@
         <option value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/update_a_course.feature" />
         <option value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" />
         <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/DataService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/CourseShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/CourseShould.java" />
       </list>
     </option>
   </component>
@@ -355,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scheduling" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +409,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enrolling" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,6 +438,10 @@
               <option name="myItemId" value="dddkata.tutoring.scheduling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -444,6 +472,44 @@
               <option name="myItemId" value="scheduling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infrastructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDDKataTutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDDKataTutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -472,6 +538,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enrolling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infrastructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDDKataTutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DDDKataTutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enrolling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -515,15 +619,18 @@
       <recent name="dddkata.tutoring" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain" />
       <recent name="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling" />
       <recent name="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dddkata.tutoring.scheduling.domain" />
+      <recent name="dddkata.tutoring.enrolling.domain" />
       <recent name="dddkata.tutoring.enrolling" />
       <recent name="dddkata.tutoring.scheduling" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids?">
+  <component name="RunManager" selected="JUnit.dddkata.tutoring in DDDKataTutoring">
     <configuration default="false" name="Scenario: What if the course I want to delete has been enrolled by some kids?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -551,6 +658,78 @@
       </RunnerSettings>
       <method />
     </configuration>
+    <configuration default="false" name="All Features in: dddkata.tutoring.scheduling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling" />
+      <option name="GLUE" value="dddkata.tutoring.scheduling" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: dddkata.tutoring.scheduling" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DDDKataTutoring" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="All Features in: acceptance.criteria" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria" />
+      <option name="GLUE" value="dddkata.tutoring.scheduling.domain" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: acceptance.criteria" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DDDKataTutoring" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: What if the course I want to delete has been enrolled by some kids? (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/delete_a_course.feature" />
+      <option name="GLUE" value="dddkata.tutoring.scheduling.domain" />
+      <option name="myNameFilter" value="^What if the course I want to delete has been enrolled by some kids\?$" />
+      <option name="myGeneratedName" value="Scenario: What if the course I want to delete has been enrolled by some kids?" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^What if the course I want to delete has been enrolled by some kids\?$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DDDKataTutoring" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="dddkata.tutoring in DDDKataTutoring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -575,78 +754,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Feature: delete_a_course" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" />
-      <option name="GLUE" value="dddkata.tutoring.scheduling" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: delete_a_course" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DDDKataTutoring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: What if there is a mandatory field which is not filled?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/create_a_course.feature" />
-      <option name="GLUE" value="dddkata.tutoring.scheduling" />
-      <option name="myNameFilter" value="^What if there is a mandatory field which is not filled\?$" />
-      <option name="myGeneratedName" value="Scenario: What if there is a mandatory field which is not filled?" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^What if there is a mandatory field which is not filled\?$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DDDKataTutoring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="All Features in: dddkata.tutoring.scheduling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling" />
-      <option name="GLUE" value="dddkata.tutoring.scheduling" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="All Features in: dddkata.tutoring.scheduling" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DDDKataTutoring" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -899,18 +1006,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids?" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: delete_a_course" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if there is a mandatory field which is not filled?" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: dddkata.tutoring.scheduling" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.All Features in: dddkata.tutoring.scheduling" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.All Features in: acceptance.criteria" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids? (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids?" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.All Features in: dddkata.tutoring.scheduling" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if there is a mandatory field which is not filled?" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: delete_a_course" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.dddkata.tutoring in DDDKataTutoring" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids? (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.All Features in: acceptance.criteria" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: What if the course I want to delete has been enrolled by some kids?" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: dddkata.tutoring.scheduling" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -942,12 +1049,12 @@
       <workItem from="1437827504337" duration="2429000" />
       <workItem from="1437952300567" duration="792000" />
       <workItem from="1437959762963" duration="2012000" />
-      <workItem from="1437962774012" duration="17860000" />
+      <workItem from="1437962774012" duration="19402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131845000" />
+    <option name="totallyTimeSpent" value="133387000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -993,7 +1100,7 @@
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28040057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24199744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24199744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5659411" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1023,42 +1130,42 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Course.java</url>
           <line>125</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/ScheduleShould.java</url>
-          <line>110</line>
+          <url>file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/ScheduleShould.java</url>
+          <line>112</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Schedule.java</url>
           <line>55</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/SchedulingTranslator.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/SchedulingTranslator.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="9" />
@@ -1076,7 +1183,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/ScheduleShould.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/ScheduleShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
@@ -1084,14 +1191,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/CourseRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
@@ -1099,22 +1206,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Schedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
@@ -1122,7 +1229,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
@@ -1130,7 +1237,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/DateRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
@@ -1228,36 +1335,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Fee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Fee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Guardian.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Guardian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/CourseShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1291,15 +1390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/CourseShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/ScheduleShould.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/ScheduleShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
@@ -1307,7 +1398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DateRange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/DateRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1315,19 +1406,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/CourseRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/ScheduleShould.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/ScheduleShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
@@ -1335,15 +1426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
@@ -1351,49 +1434,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrollingTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/EnrollingTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/ScheduleRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/ScheduleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/DataService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/infrastructure/DataService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding>
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/DataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding>
-            <element signature="e#1243#1244#0" expanded="false" />
-            <element signature="e#1281#1282#0" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1406,96 +1476,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrolmentsRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/EnrolmentsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="e#231#232#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#441#442#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/SchedulingTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/SchedulingTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Enrolments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/domain/Schedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="127" selection-start-line="57" selection-start-column="127" selection-end-line="57" selection-end-column="127" />
           <folding>
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2347#2348#0" expanded="true" />
-            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/browse_courses.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/create_a_course.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#670#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/update_a_course.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/update_a_course.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="116" selection-start-line="31" selection-start-column="116" selection-end-line="31" selection-end-column="116" />
@@ -1503,10 +1539,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/CourseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13297872">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/infrastructure/DataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/domain/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/CourseShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/browse_courses.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/domain/DeleteACourseStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/delete_a_course.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolling/domain/CourseShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/domain/create_a_course.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62765956">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
           <folding />
         </state>
       </provider>

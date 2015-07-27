@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolling;
+package dddkata.tutoring.enrolling.domain;
 
 /**
  * Created by twer on 6/25/15.

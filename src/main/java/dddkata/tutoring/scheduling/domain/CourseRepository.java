@@ -1,4 +1,6 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
+
+import dddkata.tutoring.scheduling.infrastructure.DataService;
 
 import java.util.List;
 

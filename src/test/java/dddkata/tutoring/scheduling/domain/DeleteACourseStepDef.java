@@ -1,10 +1,10 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import dddkata.tutoring.enrolling.*;
+import dddkata.tutoring.enrolling.domain.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,8 +24,8 @@ public class DeleteACourseStepDef {
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
-        Course coursePictureBooksInScheduling
-                = Course.newInstance("儿童绘本",
+        dddkata.tutoring.scheduling.domain.Course coursePictureBooksInScheduling
+                = dddkata.tutoring.scheduling.domain.Course.newInstance("儿童绘本",
                 "儿童用文字与图画去组织和表达思想的过程中，可以培养其对图画进行细致的经营，培养在生活中的观察力从而完整地创作出作品；在大量兼具艺术性与",
                 "5～8岁",
                 3000, "达芬奇", teachers, dateRange);
@@ -36,8 +36,8 @@ public class DeleteACourseStepDef {
 
         Enrolments enrolmentsInEnrolment
                 = Enrolments.newInstance("小画家");
-        dddkata.tutoring.enrolling.Course coursePictureBooksInEnrolment
-                = dddkata.tutoring.enrolling.Course.newInstance("儿童绘本");
+        dddkata.tutoring.enrolling.domain.Course coursePictureBooksInEnrolment
+                = dddkata.tutoring.enrolling.domain.Course.newInstance("儿童绘本");
         enrolmentsInEnrolment.addCourse(coursePictureBooksInEnrolment);
 
         EnrolmentsRepository enrolmentsRepository = EnrolmentsRepository.newInstance();

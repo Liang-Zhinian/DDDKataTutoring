@@ -1,4 +1,6 @@
-package dddkata.tutoring.scheduling;
+package dddkata.tutoring.scheduling.domain;
+
+import dddkata.tutoring.scheduling.infrastructure.DataService;
 
 /**
  * Created by twer on 7/27/15.
