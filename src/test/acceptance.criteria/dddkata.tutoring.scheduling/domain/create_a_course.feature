@@ -29,8 +29,7 @@ Feature: Create a course
   Scenario: What if the course is in conflict with another course over the same classroom?
     Given a course has been created
     When create second course in conflict with the first one over the same classroom
-    Then the second course could be created
-    And both conflicted courses should be mentioned in an error message
+    Then the second course could be created and both conflicted courses should be identified
 
   Scenario: What if the course is in conflict with another course over the same teacher?
     Given a course has been created
