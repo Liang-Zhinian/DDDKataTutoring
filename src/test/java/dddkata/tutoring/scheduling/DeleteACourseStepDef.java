@@ -59,9 +59,8 @@ public class DeleteACourseStepDef {
         assertTrue(scheduleInScheduling.containsCourse("儿童绘本"));
     }
 
-    @And("^the message 'Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.'$")
-    public void the_message_Some_kids_have_enrolled_the_course_In_order_to_delete_the_course_you_have_to_delete_all_its_enrolment_items_first_() throws Throwable {
+    @And("^an error message is prompted.$")
+    public void an_error_message_is_prompted() throws Throwable {
         assertEquals("Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.", scheduleInScheduling.getMessage());
     }
-
 }

@@ -7,4 +7,4 @@ Feature: Delete a course
     Given the Picture Books course has an enrolment item
     When delete the course
     Then the course could not be deleted
-    And the message 'Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.'
+    And an error message is prompted.
