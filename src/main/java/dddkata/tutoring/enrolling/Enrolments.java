@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,18 +6,18 @@ import java.util.Map;
 /**
  * Created by twer on 6/26/15.
  */
-public class Schedule {
+public class Enrolments {
     private HashMap<String, Course> courses = new HashMap<>();
     private HashMap<String, Course> conflictedCourses = null;
     private HashMap<String, Course> kidAndEnrolledCourse = new HashMap<>();
-    private EnrolmentTranslator translator;
+    private EnrollingTranslator translator;
 
-    private Schedule(String schoolName) {
-        this.translator = EnrolmentTranslator.newInstance();
+    private Enrolments(String schoolName) {
+        this.translator = EnrollingTranslator.newInstance();
     }
 
-    public static Schedule newInstance(String schoolName) {
-        return new Schedule(schoolName);
+    public static Enrolments newInstance(String schoolName) {
+        return new Enrolments(schoolName);
     }
 
     public void addCourse(Course course) {
@@ -35,7 +35,7 @@ public class Schedule {
                 && this.kidAndEnrolledCourse.keySet().contains(enrolment.getKidName())) {
             markTwoConflictedCourses(courseName);
         }
-        this.courses.get(courseName).addKid(enrolment);
+        this.courses.get(courseName).enrol(enrolment);
         this.kidAndEnrolledCourse.put(enrolment.getKidName(), this.courses.get(courseName));
     }
 

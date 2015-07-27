@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import dddkata.tutoring.scheduling.Schedule;
 import dddkata.tutoring.scheduling.ScheduleRepository;
@@ -6,16 +6,16 @@ import dddkata.tutoring.scheduling.ScheduleRepository;
 /**
  * Created by twer on 7/7/15.
  */
-public class EnrolmentTranslator {
+public class EnrollingTranslator {
     private Schedule scheduleInScheduling;
 
-    private EnrolmentTranslator() {
+    private EnrollingTranslator() {
         ScheduleRepository scheduleRepositoryInScheduling = new ScheduleRepository();
         this.scheduleInScheduling = scheduleRepositoryInScheduling.retrieve();
     }
 
-    public static EnrolmentTranslator newInstance() {
-        return new EnrolmentTranslator();
+    public static EnrollingTranslator newInstance() {
+        return new EnrollingTranslator();
     }
 
     public boolean areTwoCoursesOverlapped(Course thisCourse, Course thatCourse) {

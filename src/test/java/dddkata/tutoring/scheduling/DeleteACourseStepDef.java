@@ -4,9 +4,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import dddkata.tutoring.enrolment.Enrolment;
-import dddkata.tutoring.enrolment.Fee;
-import dddkata.tutoring.enrolment.Guardian;
+import dddkata.tutoring.enrolling.Enrolment;
+import dddkata.tutoring.enrolling.Enrolments;
+import dddkata.tutoring.enrolling.Fee;
+import dddkata.tutoring.enrolling.Guardian;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,16 +34,16 @@ public class DeleteACourseStepDef {
         ScheduleRepository scheduleRepository = ScheduleRepository.newInstance();
         scheduleRepository.save(scheduleInScheduling);
 
-        dddkata.tutoring.enrolment.Schedule scheduleInEnrolment
-                = dddkata.tutoring.enrolment.Schedule.newInstance("小画家");
-        dddkata.tutoring.enrolment.Course coursePictureBooksInEnrolment
-                = dddkata.tutoring.enrolment.Course.newInstance("儿童绘本");
-        scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
+        Enrolments enrolmentsInEnrolment
+                = Enrolments.newInstance("小画家");
+        dddkata.tutoring.enrolling.Course coursePictureBooksInEnrolment
+                = dddkata.tutoring.enrolling.Course.newInstance("儿童绘本");
+        enrolmentsInEnrolment.addCourse(coursePictureBooksInEnrolment);
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPictureBooks = Fee.newInstance("2015.02.15", 3000);
         Enrolment tianSiSiForPictureBooks = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPictureBooks);
-        scheduleInEnrolment.enrol(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
+        enrolmentsInEnrolment.enrol(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
     }
 
     @When("^delete the course$")

@@ -52,8 +52,9 @@ public class Schedule {
     }
 
     public void deleteCourse(String courseName) {
+        SchedulingTranslator schedulingTranslator = SchedulingTranslator.newInstance();
         if (schedulingTranslator.haveKidsEnrolledCourse(courseName)) {
-            this.message = "Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.";
+            this.message = "Some kids have enrolled the course. In order to delete the course, you have to delete all its enrollment items first.";
             return;
         }
         this.message = "Course deleted successfully.";

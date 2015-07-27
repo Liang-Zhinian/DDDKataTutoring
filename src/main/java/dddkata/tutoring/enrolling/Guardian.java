@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 /**
  * Created by twer on 6/25/15.

@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import org.junit.Test;
 

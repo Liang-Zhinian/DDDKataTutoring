@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,7 +25,7 @@ public class Course {
         return new Course(name);
     }
 
-    public void addKid(Enrolment enrolment) {
+    public void enrol(Enrolment enrolment) {
         this.enrolments.put(enrolment.getKidName(), enrolment);
     }
 

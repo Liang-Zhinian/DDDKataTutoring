@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import java.util.HashMap;
 
@@ -20,7 +20,7 @@ public class DataService {
     }
 
     public void enrolAKidForACourse(String courseName, Enrolment enrolmentCourse) {
-        this.courses.get(courseName).addKid(enrolmentCourse);
+        this.courses.get(courseName).enrol(enrolmentCourse);
     }
 
     public Enrolment retrieveAKidForACourse(String courseName, String kidName) {

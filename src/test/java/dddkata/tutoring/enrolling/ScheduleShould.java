@@ -1,4 +1,4 @@
-package dddkata.tutoring.enrolment;
+package dddkata.tutoring.enrolling;
 
 import dddkata.tutoring.scheduling.DateRange;
 import dddkata.tutoring.scheduling.ScheduleRepository;
@@ -44,17 +44,17 @@ public class ScheduleShould {
         scheduleRepository.save(scheduleInScheduling);
 
         // Act
-        Schedule scheduleInEnrolment
-                = Schedule.newInstance("小画家");
+        Enrolments enrolmentsInEnrolment
+                = Enrolments.newInstance("小画家");
         Course coursePictureBooksInEnrolment
                 = Course.newInstance("儿童油画");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
-        scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
-        scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
+        enrolmentsInEnrolment.addCourse(coursePictureBooksInEnrolment);
+        enrolmentsInEnrolment.addCourse(courseHandwritingInEnrolment);
 
         // Assert
-        assertEquals(1, scheduleInEnrolment.getQuantityOfAddedCourses());
+        assertEquals(1, enrolmentsInEnrolment.getQuantityOfAddedCourses());
     }
 
     @Test
@@ -85,27 +85,27 @@ public class ScheduleShould {
         ScheduleRepository scheduleRepository = ScheduleRepository.newInstance();
         scheduleRepository.save(scheduleInScheduling);
 
-        Schedule scheduleInEnrolment
-                = Schedule.newInstance("小画家");
+        Enrolments enrolmentsInEnrolment
+                = Enrolments.newInstance("小画家");
         Course coursePictureBooksInEnrolment
                 = Course.newInstance("儿童绘本");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
-        scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
-        scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
+        enrolmentsInEnrolment.addCourse(coursePictureBooksInEnrolment);
+        enrolmentsInEnrolment.addCourse(courseHandwritingInEnrolment);
 
         // Act
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPictureBooks = Fee.newInstance("2015.02.15", 3000);
         Enrolment tianSiSiForPictureBooks = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForPictureBooks);
-        scheduleInEnrolment.enrol(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
+        enrolmentsInEnrolment.enrol(tianSiSiForPictureBooks, coursePictureBooksInEnrolment.getName());
 
         Fee tianSiSiFeeForHandwriting = Fee.newInstance("2015.02.16", 2000);
         Enrolment tianSiSiForHandwriting = Enrolment.newInstance("田斯斯", "女", 3, tianSiSiMom, tianSiSiFeeForHandwriting);
-        scheduleInEnrolment.enrol(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName());
+        enrolmentsInEnrolment.enrol(tianSiSiForHandwriting, courseHandwritingInEnrolment.getName());
 
         Map<String, Course> conflictedCourses
-                = scheduleInEnrolment.getConflictedCourses();
+                = enrolmentsInEnrolment.getConflictedCourses();
 
         // Assert
         assertEquals(coursePictureBooksInEnrolment, conflictedCourses.get("儿童绘本"));
