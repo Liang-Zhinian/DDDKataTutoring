@@ -4,9 +4,6 @@
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Schedule.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolment/Schedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/enrolment/ScheduleShould.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" afterPath="$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,21 +121,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_a_course.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_a_course.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.119521916">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteACourseStepDef.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeleteACourseStepDef.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.7410359">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -931,12 +928,12 @@
       <workItem from="1437827504337" duration="2429000" />
       <workItem from="1437952300567" duration="792000" />
       <workItem from="1437959762963" duration="2012000" />
-      <workItem from="1437962774012" duration="4349000" />
+      <workItem from="1437962774012" duration="4769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118334000" />
+    <option name="totallyTimeSpent" value="118754000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1415,18 +1412,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/acceptance.criteria/dddkata.tutoring.scheduling/delete_a_course.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.119521916">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.7410359">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -30,6 +30,7 @@ public class DeleteACourseStepDef {
                 = Schedule.newInstance("小画家");
         scheduleInScheduling.addCourse(coursePictureBooksInScheduling);
 
+        // TODO: Translator should be created in the scheduleInEnrolment
         EnrolmentTranslator translator = EnrolmentTranslator.newInstance();
         translator.addScheduleInScheduling(scheduleInScheduling);
 
@@ -48,6 +49,7 @@ public class DeleteACourseStepDef {
 
     @When("^delete the course$")
     public void delete_the_course() throws Throwable {
+        scheduleInScheduling.deleteCourse("儿童绘本");
     }
 
     @Then("^the course could not be deleted$")
