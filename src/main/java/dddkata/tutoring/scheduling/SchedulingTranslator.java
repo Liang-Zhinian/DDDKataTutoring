@@ -1,6 +1,7 @@
 package dddkata.tutoring.scheduling;
 
 import dddkata.tutoring.enrolling.Enrolments;
+import dddkata.tutoring.enrolling.EnrolmentsRepository;
 
 /**
  * Created by twer on 7/27/15.

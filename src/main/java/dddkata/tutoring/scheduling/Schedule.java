@@ -10,6 +10,7 @@ public class Schedule {
     private final String schoolName;
     private Map<String, Course> courses = new HashMap<>();
     private Map<String, Course> conflictedCourses = null;
+    private String message = "";
 
     private Schedule(String schoolName) {
         this.schoolName = schoolName;

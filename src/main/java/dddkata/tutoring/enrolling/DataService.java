@@ -8,6 +8,7 @@ import java.util.HashMap;
 public class DataService {
     private static DataService singleton;
     private HashMap<String, Course> courses = new HashMap<>();
+    private Enrolments enrolments;
 
     private DataService() {
     }
@@ -38,5 +39,13 @@ public class DataService {
 
     public Course getCourse(String courseName) {
         return this.courses.get(courseName);
+    }
+
+    public Enrolments retrieveEnrolments() {
+        return this.enrolments;
+    }
+
+    public void save(Enrolments enrolmentsInEnrolment) {
+        this.enrolments = enrolmentsInEnrolment;
     }
 }

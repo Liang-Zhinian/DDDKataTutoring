@@ -55,4 +55,8 @@ public class Enrolments {
     public int getQuantityOfAddedCourses() {
         return this.courses.size();
     }
+
+    public boolean haveKidsEnrolledCourse(String courseName) {
+        return this.kidAndEnrolledCourse.values().contains(courseName);
+    }
 }

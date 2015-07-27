@@ -8,6 +8,7 @@ import dddkata.tutoring.enrolling.Enrolment;
 import dddkata.tutoring.enrolling.Enrolments;
 import dddkata.tutoring.enrolling.Fee;
 import dddkata.tutoring.enrolling.Guardian;
+import dddkata.tutoring.enrolling.EnrolmentsRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +40,9 @@ public class DeleteACourseStepDef {
         dddkata.tutoring.enrolling.Course coursePictureBooksInEnrolment
                 = dddkata.tutoring.enrolling.Course.newInstance("儿童绘本");
         enrolmentsInEnrolment.addCourse(coursePictureBooksInEnrolment);
+
+        EnrolmentsRepository enrolmentsRepository = EnrolmentsRepository.newInstance();
+        enrolmentsRepository.save(enrolmentsInEnrolment);
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
         Fee tianSiSiFeeForPictureBooks = Fee.newInstance("2015.02.15", 3000);
