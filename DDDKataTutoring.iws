@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97532396-cb0f-4acb-8b42-3af782d11150" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDDKataTutoring.iws" afterPath="$PROJECT_DIR$/DDDKataTutoring.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" afterPath="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" afterPath="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
     </list>
     <ignored path="DDDKataTutoring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +72,8 @@
       <file leaf-file-name="DeleteACourseStepDef.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60106385">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7606383">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -268,8 +268,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/EnrolmentsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/DataService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/enrolling/Enrolments.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/dddkata/tutoring/scheduling/Schedule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java" />
       </list>
     </option>
   </component>
@@ -959,12 +959,12 @@
       <workItem from="1437827504337" duration="2429000" />
       <workItem from="1437952300567" duration="792000" />
       <workItem from="1437959762963" duration="2012000" />
-      <workItem from="1437962774012" duration="12677000" />
+      <workItem from="1437962774012" duration="12755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126662000" />
+    <option name="totallyTimeSpent" value="126740000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1517,8 +1517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dddkata/tutoring/scheduling/DeleteACourseStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60106385">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.7606383">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>

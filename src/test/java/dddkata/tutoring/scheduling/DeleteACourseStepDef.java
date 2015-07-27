@@ -4,11 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import dddkata.tutoring.enrolling.Enrolment;
-import dddkata.tutoring.enrolling.Enrolments;
-import dddkata.tutoring.enrolling.Fee;
-import dddkata.tutoring.enrolling.Guardian;
-import dddkata.tutoring.enrolling.EnrolmentsRepository;
+import dddkata.tutoring.enrolling.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,6 +61,7 @@ public class DeleteACourseStepDef {
 
     @And("^the message 'Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.'$")
     public void the_message_Some_kids_have_enrolled_the_course_In_order_to_delete_the_course_you_have_to_delete_all_its_enrolment_items_first_() throws Throwable {
+        assertEquals("Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.", scheduleInScheduling.getMessage());
     }
 
 }
