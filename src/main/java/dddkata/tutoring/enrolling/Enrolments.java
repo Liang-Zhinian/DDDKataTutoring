@@ -57,6 +57,11 @@ public class Enrolments {
     }
 
     public boolean haveKidsEnrolledCourse(String courseName) {
-        return this.kidAndEnrolledCourse.values().contains(courseName);
+        for (Course course : this.kidAndEnrolledCourse.values()) {
+            if (course.getName().equals(courseName)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
