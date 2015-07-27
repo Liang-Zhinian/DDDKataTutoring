@@ -30,7 +30,7 @@ public class Schedule {
         return conflictedCourses;
     }
 
-    public void addKid(Enrolment enrolment, String courseName) {
+    public void enrol(Enrolment enrolment, String courseName) {
         if (this.kidAndEnrolledCourse.size() > 0
                 && this.kidAndEnrolledCourse.keySet().contains(enrolment.getKidName())) {
             markTwoConflictedCourses(courseName);
