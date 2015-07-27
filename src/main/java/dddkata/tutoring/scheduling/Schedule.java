@@ -61,4 +61,8 @@ public class Schedule {
         this.message = "Course deleted successfully.";
         this.courses.remove("courseName");
     }
+
+    public boolean containsCourse(String courseName) {
+        return this.courses.containsKey(courseName);
+    }
 }
