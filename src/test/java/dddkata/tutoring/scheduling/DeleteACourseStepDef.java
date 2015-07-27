@@ -19,8 +19,8 @@ public class DeleteACourseStepDef {
 
     private final Schedule scheduleInScheduling = Schedule.newInstance("小画家");
 
-    @Given("^the Picture Books course has an enrolment item$")
-    public void the_Picture_Books_course_has_an_enrolment_item() throws Throwable {
+    @Given("^a course has an enrolment item$")
+    public void a_course_has_an_enrolment_item() throws Throwable {
         List<Teacher> teachers = new ArrayList<Teacher>();
         teachers.add(Teacher.newInstance("幼幼", "13809878765"));
         DateRange dateRange = new DateRange("Wednesday", "18:00", "19:30", "2015.02.11", 12);
@@ -63,4 +63,5 @@ public class DeleteACourseStepDef {
     public void an_error_message_is_prompted() throws Throwable {
         assertEquals("Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.", scheduleInScheduling.getMessage());
     }
+
 }
