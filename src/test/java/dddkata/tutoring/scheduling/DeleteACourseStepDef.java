@@ -13,6 +13,9 @@ import dddkata.tutoring.enrolling.EnrolmentsRepository;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 /**
  * Created by twer on 7/27/15.
  */
@@ -57,6 +60,7 @@ public class DeleteACourseStepDef {
 
     @Then("^the course could not be deleted$")
     public void the_course_could_not_be_deleted() throws Throwable {
+        assertTrue(scheduleInScheduling.containsCourse("儿童绘本"));
     }
 
     @And("^the message 'Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.'$")
