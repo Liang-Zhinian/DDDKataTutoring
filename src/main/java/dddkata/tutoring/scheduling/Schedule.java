@@ -50,4 +50,13 @@ public class Schedule {
     public boolean isCourseCreated(String courseName) {
         return this.courses.keySet().contains(courseName);
     }
+
+    public void deleteCourse(String courseName) {
+        if (schedulingTranslator.haveKidsEnrolledCourse(courseName)) {
+            this.message = "Some kids have enrolled the course. In order to delete the course, you have to delete all its enrolment items first.";
+            return;
+        }
+        this.message = "Course deleted successfully.";
+        this.courses.remove("courseName");
+    }
 }

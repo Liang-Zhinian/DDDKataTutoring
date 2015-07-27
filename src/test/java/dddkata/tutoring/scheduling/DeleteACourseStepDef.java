@@ -15,6 +15,9 @@ import java.util.List;
  * Created by twer on 7/27/15.
  */
 public class DeleteACourseStepDef {
+
+    private final Schedule scheduleInScheduling = Schedule.newInstance("小画家");
+
     @Given("^the Picture Books course has an enrolment item$")
     public void the_Picture_Books_course_has_an_enrolment_item() throws Throwable {
         List<Teacher> teachers = new ArrayList<Teacher>();
@@ -25,10 +28,10 @@ public class DeleteACourseStepDef {
                 "儿童用文字与图画去组织和表达思想的过程中，可以培养其对图画进行细致的经营，培养在生活中的观察力从而完整地创作出作品；在大量兼具艺术性与",
                 "5～8岁",
                 3000, "达芬奇", teachers, dateRange);
-        Schedule scheduleInScheduling
-                = Schedule.newInstance("小画家");
         scheduleInScheduling.addCourse(coursePictureBooksInScheduling);
-        
+
+        ScheduleRepository scheduleRepository = ScheduleRepository.newInstance();
+        scheduleRepository.save(scheduleInScheduling);
 
         dddkata.tutoring.enrolment.Schedule scheduleInEnrolment
                 = dddkata.tutoring.enrolment.Schedule.newInstance("小画家");
@@ -44,7 +47,7 @@ public class DeleteACourseStepDef {
 
     @When("^delete the course$")
     public void delete_the_course() throws Throwable {
-        // scheduleInScheduling.deleteCourse("儿童绘本");
+         scheduleInScheduling.deleteCourse("儿童绘本");
     }
 
     @Then("^the course could not be deleted$")
