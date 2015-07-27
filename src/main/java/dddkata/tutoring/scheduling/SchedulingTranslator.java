@@ -1,5 +1,7 @@
 package dddkata.tutoring.scheduling;
 
+import dddkata.tutoring.enrolling.Enrolments;
+
 /**
  * Created by twer on 7/27/15.
  */
@@ -9,7 +11,8 @@ public class SchedulingTranslator {
     }
 
     public boolean haveKidsEnrolledCourse(String courseName) {
-
-        return false;
+        EnrolmentsRepository enrolmentsRepository = EnrolmentsRepository.newInstance();
+        Enrolments enrolments = enrolmentsRepository.retrieve();
+        return enrolments.haveKidsEnrolledCourse(courseName);
     }
 }
