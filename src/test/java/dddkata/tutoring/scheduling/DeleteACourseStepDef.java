@@ -28,8 +28,7 @@ public class DeleteACourseStepDef {
         Schedule scheduleInScheduling
                 = Schedule.newInstance("小画家");
         scheduleInScheduling.addCourse(coursePictureBooksInScheduling);
-
-        // TODO-working-on: Translator should be created in the scheduleInEnrolment
+        
 
         dddkata.tutoring.enrolment.Schedule scheduleInEnrolment
                 = dddkata.tutoring.enrolment.Schedule.newInstance("小画家");

@@ -10,6 +10,7 @@ import java.util.List;
 public class DataService {
     private static DataService singleton;
     private HashMap<String, Course> courses = new HashMap<>();
+    private Schedule schedule;
 
     private DataService() {
     }
@@ -35,5 +36,13 @@ public class DataService {
 
     public void delete(String courseName) {
         this.courses.remove(courseName);
+    }
+
+    public Schedule retrieveSchedule() {
+        return this.schedule;
+    }
+
+    public void saveSchedule(Schedule scheduleInScheduling) {
+        this.schedule = scheduleInScheduling;
     }
 }

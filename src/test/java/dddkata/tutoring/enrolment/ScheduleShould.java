@@ -1,6 +1,7 @@
 package dddkata.tutoring.enrolment;
 
 import dddkata.tutoring.scheduling.DateRange;
+import dddkata.tutoring.scheduling.ScheduleRepository;
 import dddkata.tutoring.scheduling.Teacher;
 import org.junit.Test;
 
@@ -38,9 +39,9 @@ public class ScheduleShould {
                 "5～8岁",
                 2000, "毕加索", teachers, dateRange);
         scheduleInScheduling.addCourse(courseHandwritingInScheduling);
-        EnrolmentTranslator translator = EnrolmentTranslator.newInstance();
-        translator.addScheduleInScheduling(scheduleInScheduling);
 
+        ScheduleRepository scheduleRepository = ScheduleRepository.newInstance();
+        scheduleRepository.save(scheduleInScheduling);
 
         // Act
         Schedule scheduleInEnrolment
@@ -80,8 +81,9 @@ public class ScheduleShould {
                 "5～8岁",
                 2000, "毕加索", teachers, dateRange);
         scheduleInScheduling.addCourse(courseHandwritingInScheduling);
-        EnrolmentTranslator translator = EnrolmentTranslator.newInstance();
-        translator.addScheduleInScheduling(scheduleInScheduling);
+
+        ScheduleRepository scheduleRepository = ScheduleRepository.newInstance();
+        scheduleRepository.save(scheduleInScheduling);
 
         Schedule scheduleInEnrolment
                 = Schedule.newInstance("小画家");

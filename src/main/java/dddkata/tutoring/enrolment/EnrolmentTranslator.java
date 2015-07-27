@@ -1,6 +1,7 @@
 package dddkata.tutoring.enrolment;
 
 import dddkata.tutoring.scheduling.Schedule;
+import dddkata.tutoring.scheduling.ScheduleRepository;
 
 /**
  * Created by twer on 7/7/15.
@@ -15,10 +16,6 @@ public class EnrolmentTranslator {
 
     public static EnrolmentTranslator newInstance() {
         return new EnrolmentTranslator();
-    }
-
-    public void addScheduleInScheduling(Schedule scheduleInScheduling) {
-        this.scheduleInScheduling = scheduleInScheduling;
     }
 
     public boolean areTwoCoursesOverlapped(Course thisCourse, Course thatCourse) {
