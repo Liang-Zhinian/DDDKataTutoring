@@ -9,7 +9,8 @@ public class EnrolmentTranslator {
     private Schedule scheduleInScheduling;
 
     private EnrolmentTranslator() {
-
+        ScheduleRepository scheduleRepositoryInScheduling = new ScheduleRepository();
+        this.scheduleInScheduling = scheduleRepositoryInScheduling.retrieve();
     }
 
     public static EnrolmentTranslator newInstance() {
@@ -24,7 +25,7 @@ public class EnrolmentTranslator {
         return scheduleInScheduling.isOverlapped(thisCourse.getName(), thatCourse.getName());
     }
 
-    public boolean doesCourseExistInScheduling(Course course) {
-        return scheduleInScheduling.isCourseCreated(course.getName());
+    public boolean doesCourseExistInScheduling(String course) {
+        return scheduleInScheduling.isCourseCreated(course);
     }
 }

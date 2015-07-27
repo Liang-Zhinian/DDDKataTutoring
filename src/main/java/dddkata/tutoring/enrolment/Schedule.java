@@ -13,7 +13,7 @@ public class Schedule {
     private EnrolmentTranslator translator;
 
     private Schedule(String schoolName) {
-
+        this.translator = EnrolmentTranslator.newInstance();
     }
 
     public static Schedule newInstance(String schoolName) {
@@ -21,7 +21,7 @@ public class Schedule {
     }
 
     public void addCourse(Course course) {
-        if (translator.doesCourseExistInScheduling(course)) {
+        if (translator.doesCourseExistInScheduling(course.getName())) {
             this.courses.put(course.getName(), course);
         }
     }
@@ -50,10 +50,6 @@ public class Schedule {
                 break;
             }
         }
-    }
-
-    public void addTranslator(EnrolmentTranslator translator) {
-        this.translator = translator;
     }
 
     public int getQuantityOfAddedCourses() {

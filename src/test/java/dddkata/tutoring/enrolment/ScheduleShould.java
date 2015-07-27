@@ -49,7 +49,6 @@ public class ScheduleShould {
                 = Course.newInstance("儿童油画");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
-        scheduleInEnrolment.addTranslator(translator);
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
 
@@ -90,7 +89,6 @@ public class ScheduleShould {
                 = Course.newInstance("儿童绘本");
         Course courseHandwritingInEnrolment
                 = Course.newInstance("书法");
-        scheduleInEnrolment.addTranslator(translator);
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
         scheduleInEnrolment.addCourse(courseHandwritingInEnrolment);
 

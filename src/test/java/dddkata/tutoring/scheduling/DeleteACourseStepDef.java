@@ -5,7 +5,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import dddkata.tutoring.enrolment.Enrolment;
-import dddkata.tutoring.enrolment.EnrolmentTranslator;
 import dddkata.tutoring.enrolment.Fee;
 import dddkata.tutoring.enrolment.Guardian;
 
@@ -30,15 +29,12 @@ public class DeleteACourseStepDef {
                 = Schedule.newInstance("小画家");
         scheduleInScheduling.addCourse(coursePictureBooksInScheduling);
 
-        // TODO: Translator should be created in the scheduleInEnrolment
-        EnrolmentTranslator translator = EnrolmentTranslator.newInstance();
-        translator.addScheduleInScheduling(scheduleInScheduling);
+        // TODO-working-on: Translator should be created in the scheduleInEnrolment
 
         dddkata.tutoring.enrolment.Schedule scheduleInEnrolment
                 = dddkata.tutoring.enrolment.Schedule.newInstance("小画家");
         dddkata.tutoring.enrolment.Course coursePictureBooksInEnrolment
                 = dddkata.tutoring.enrolment.Course.newInstance("儿童绘本");
-        scheduleInEnrolment.addTranslator(translator);
         scheduleInEnrolment.addCourse(coursePictureBooksInEnrolment);
 
         Guardian tianSiSiMom = Guardian.newInstance("Mom", "13921223456");
@@ -49,7 +45,7 @@ public class DeleteACourseStepDef {
 
     @When("^delete the course$")
     public void delete_the_course() throws Throwable {
-        scheduleInScheduling.deleteCourse("儿童绘本");
+        // scheduleInScheduling.deleteCourse("儿童绘本");
     }
 
     @Then("^the course could not be deleted$")
